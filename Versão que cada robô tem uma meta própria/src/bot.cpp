@@ -1,0 +1,80 @@
+
+#include "bot.hpp"
+#include <cmath>
+#include <vector>
+#include "ship.hpp"
+#include "rng.hpp"
+
+using namespace std;
+
+// constructors -----------------------------------------------------------------------------
+
+Bot::Bot(Ship* body, vector<double> dna)
+{
+    ship = body;
+    score = 0;
+    body->facing_angle = GetRandomValue(0,359) * DEG2RAD;
+    genome = dna;
+}
+
+// getters & setters ------------------------------------------------------------------------
+
+vector<double> Bot::get_genome(){
+    return(genome);
+}
+
+void Bot::set_genome(vector<double> new_genome){
+    genome.clear();
+    genome = new_genome;
+}
+
+bool Bot::get_alive_status(){
+    return ship->active;
+}
+
+float Bot::get_coll_radius(){
+    return(ship->get_collRadius());
+}
+
+// methods ----------------------------------------------------------------------------------
+
+//after-round score post-processing
+float Bot::get_score(){
+    score = ship->score;
+    return score;
+}    
+
+//decide which way to move
+vector<bool> Bot::movement_decision(){
+
+    vector<double> sensors = ship->getSensors();
+    vector<bool> output;
+
+    //for each of the 4 outputs the bot can choose to activate
+    for(int i=0; i<4; i++){
+        float weightedSum = 0;
+
+        //get the weighted sum of all the sensors multiplied by their respective genes
+        for(int j = 0; j < sensors.size(); j++){
+            int pos = j + i*sensors.size();
+            weightedSum += (sensors[j] * genome[pos]);
+        }
+
+        //and see if it's above a threshold, which is defined in the last 4 genes
+        float threshold = genome[genome.size()-4+i];
+    
+        //if it is, press that button
+        if(weightedSum > threshold){
+            output.push_back(true);
+        } else {
+            output.push_back(false);
+        }
+
+    }
+    return(output); 
+}
+
+void Bot::movement(){
+    vector<bool> inputs = movement_decision();
+    ship->movement(inputs);
+}
