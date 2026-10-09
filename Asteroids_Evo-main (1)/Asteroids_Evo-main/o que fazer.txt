@@ -1,0 +1,9 @@
+Ideia 1: Gerar um ponto aleatório na borda de um raio de ação, 
+representando o alcance de visão da nave quando ele chega no objetivo
+é bonificado e surge outro ponto para nave ir;
+Ideia 2: interface de configuração;
+Ideia 3: Fazer não crashar e salvar o tempo da geração;
+Ideia 4: Aumentar a quantidade de niveis de processamento;
+Ideia 5: Os conceitos de AE
+Ideia 6: Futezin?????/Explorar outros projetos
+Ideia 7: 
