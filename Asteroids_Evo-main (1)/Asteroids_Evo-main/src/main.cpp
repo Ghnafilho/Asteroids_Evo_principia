@@ -26,7 +26,7 @@
 #define CELL_SIZE 32
 #define worldWidth 1600
 #define worldHeight 1000
-#define GENOME_SIZE 260  // (9 sensores + 1 bias) x 4 saidas
+#define GENOME_SIZE 130  // (9 sensores + 1 bias) x 4 saidas
 #define WORLD_COUNT 8
 
 using namespace std;

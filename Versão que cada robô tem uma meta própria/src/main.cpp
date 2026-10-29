@@ -26,7 +26,7 @@
 #define CELL_SIZE 32
 #define worldWidth 1600
 #define worldHeight 1000
-#define GENOME_SIZE 260
+#define GENOME_SIZE 130
 #define WORLD_COUNT 8
 
 using namespace std;

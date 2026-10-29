@@ -41,7 +41,7 @@ PLAYER_ACTIVE(spawnplayer)
     for(int i = 0; i < botCount; i++) {
         Ship* ship = dynamic_cast<Ship*>(Spawn_entity(2)); //create the ship
         vector<double> random_genome;
-            for(int j = 0; j < 260; j++){  // 260 = GENOME_SIZE (main.cpp)
+            for(int j = 0; j < 130; j++){  // 130 = GENOME_SIZE (main.cpp)
                 random_genome.push_back(get_random_double(-1,1));
             }
         if(has_goal) ship->set_goals(goal_points);

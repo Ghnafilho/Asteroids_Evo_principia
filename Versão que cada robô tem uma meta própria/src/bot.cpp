@@ -9,8 +9,8 @@ using namespace std;
 
 //arquiteture -------------------------------------------------------------------------------
 static const int INPUT_SIZE = 9;
-static const int HIDDEN1_SIZE = 12;
-static const int HIDDEN2_SIZE = 8;
+static const int HIDDEN1_SIZE = 6;
+static const int HIDDEN2_SIZE = 6;
 static const int OUTPUT_SIZE = 4;
 
 
@@ -53,11 +53,11 @@ float Bot::get_score(){
 
 /*MLP --------------------------------------------------------------------------------
     Structure:
-    108 -> First layer
-    12 - > Bias first layer
-    96 - > Second layer
-    8 - > Bias second layer
-    32 -> output
+    54 -> First layer
+    6 - > Bias first layer
+    36 - > Second layer
+    6 - > Bias second layer
+    24 -> output
     4 -> Bias output
     */
 
@@ -75,7 +75,7 @@ vector<bool> Bot::movement_decision()
         return vector<bool>(OUTPUT_SIZE, false);
     }
 
-    // Verifiy if the Genome size is 260
+    // Verifiy if the Genome size is 130
     const int EXPECTED_GENOME_SIZE =
         INPUT_SIZE * HIDDEN1_SIZE +
         HIDDEN1_SIZE +
@@ -102,7 +102,7 @@ vector<bool> Bot::movement_decision()
         }
 
         // Bias
-        weighted_sum += genome[108 + i];
+        weighted_sum += genome[54 + i];
 
         // Activation function
         hidden1[i] = tanh(weighted_sum);
@@ -111,7 +111,7 @@ vector<bool> Bot::movement_decision()
     //Second layer -----------------------------------------------------------------------------
     
     vector<double> hidden2(HIDDEN2_SIZE);
-    pos = 120;
+    pos = 60;
 
     for(int i = 0; i < HIDDEN2_SIZE; i++){
         double weighted_sum = 0.0;
@@ -122,7 +122,7 @@ vector<bool> Bot::movement_decision()
         }
 
         // Bias
-        weighted_sum += genome[216 + i];
+        weighted_sum += genome[96 + i];
 
         //Activation function
         hidden2[i] = tanh(weighted_sum);
@@ -130,7 +130,7 @@ vector<bool> Bot::movement_decision()
 
     //Output layer -------------------------------------------------------------------------------
 
-    pos = 224;
+    pos = 102;
 
     for(int i = 0; i < OUTPUT_SIZE; i++){
         double weighted_sum = 0.0;
@@ -141,7 +141,7 @@ vector<bool> Bot::movement_decision()
         }
 
         // Bias
-        weighted_sum += genome[256 + i];
+        weighted_sum += genome[126 + i];
 
         // Activation function
         double activated_output = tanh(weighted_sum);

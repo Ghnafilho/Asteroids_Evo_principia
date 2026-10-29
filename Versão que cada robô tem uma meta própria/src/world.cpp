@@ -35,7 +35,7 @@ PLAYER_ACTIVE(spawnplayer)
 
         vector<double> random_genome;
 
-        for(int j = 0; j < 260; j++){
+        for(int j = 0; j < 130; j++){
             random_genome.push_back(get_random_double(-1,1));
         }
 
