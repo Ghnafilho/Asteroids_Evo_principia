@@ -12,7 +12,7 @@ static const int INPUT_SIZE = 9;
 static const int HIDDEN1_SIZE = 6;
 static const int HIDDEN2_SIZE = 6;
 static const int OUTPUT_SIZE = 4;
-
+static const double ROTATION_THRESHOLD = 0.3;
 
 // constructors -----------------------------------------------------------------------------
 
@@ -146,11 +146,16 @@ vector<bool> Bot::movement_decision()
         // Activation function
         double activated_output = tanh(weighted_sum);
 
-        if(activated_output > 0.0){
-            output.push_back(true);
+        if(i == 2 || i == 3){
+            if(activated_output > ROTATION_THRESHOLD){
+                output.push_back(activated_output);
+            }
+            else{
+                output.push_back(0);
+            }
         }
         else{
-            output.push_back(false);
+            output.push_back(activated_output > 0.0);
         }
     }
 

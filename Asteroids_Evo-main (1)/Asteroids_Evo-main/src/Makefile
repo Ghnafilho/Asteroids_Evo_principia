@@ -18,6 +18,10 @@ all: $(EXE)
 run: $(EXE)
 	./$(EXE)
 
+clean:
+	rm -rf ../build
+	rm -f $(EXE)
+	
 $(EXE): $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
 

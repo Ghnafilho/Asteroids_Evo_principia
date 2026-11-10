@@ -184,8 +184,15 @@ int main() {
             bot_count = next_bot_count;
             asteroid_count = next_asteroid_count;
             Evo evo(bot_count, avgScores, GENOME_SIZE);
-            Genome next_genomes = evo.repopulation();
-            Persistence::saveGenomes(SAVE_FILE, generation + 1, bot_count, next_asteroid_count, next_genomes);
+            Genome next_genomes;
+            if(generation % 60 == 0){
+                next_genomes = evo.genocidio();
+            }
+            else{
+                next_genomes = evo.repopulation();
+            }
+            
+                Persistence::saveGenomes(SAVE_FILE, generation + 1, bot_count, next_asteroid_count, next_genomes);
             
             //make new universes
             for(int i = 0; i < WORLD_COUNT; i++) {

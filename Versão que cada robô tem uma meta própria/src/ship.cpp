@@ -165,7 +165,7 @@ void Ship::update()
         float current_dist = Vector2Distance(position, current_goal);
 
         if(current_dist <= goal_reach_radius){
-            desired_movement_accumulator2 += goal_reward;
+            desired_movement_accumulator2 += goal_reward * alignment_coefficient;
             generate_goal();
         }
     }

@@ -44,6 +44,8 @@ public:
     void find_best_gene();
 
     std::vector<std::vector<double>> repopulation();
+    std::vector<std::vector<double>> genocidio();
+    std::vector<std::vector<double>> genocidio1();
 
 };
 

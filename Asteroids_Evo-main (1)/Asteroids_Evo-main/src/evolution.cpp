@@ -76,6 +76,50 @@ void Evo::set_best_pos(int pos){
     best_pos = pos;
 }
 
+vector<vector<double>> Evo :: genocidio1(){
+    vector<vector<double>> new_genomes;
+    new_genomes.reserve(pop_size);
+    
+    vector<double> melhor_de_todos = get_best_genes();
+    new_genomes.push_back(melhor_de_todos);
+
+
+    for(int i = 0; i < pop_size - 1; i++){
+        vector<double> pai1(genome_size);
+        vector<double> pai2(genome_size);
+        for (int j = 0; j < genome_size; j++)
+        {
+            pai1[j] = (double)rand() / RAND_MAX;
+            pai2[j] = (double)rand() / RAND_MAX;
+        }
+        // 2. Crossover & Mutation (Creates Child DNA)
+        vector<double> child_dna = crossover(pai1, pai2, genome_size);
+
+        // 3. Store only the genome
+        new_genomes.push_back(child_dna);
+    }
+    return new_genomes;
+}
+vector<vector<double>> Evo :: genocidio(){
+    vector<vector<double>> new_genomes;
+    new_genomes.reserve(pop_size);
+    
+    vector<double> melhor_de_todos = get_best_genes();
+    new_genomes.push_back(melhor_de_todos);
+
+
+    for(int i = 0; i < pop_size - 1; i++){
+        vector<double> individuo(genome_size);
+        for (int j = 0; j < genome_size; j++){
+            individuo[j] = (double)rand() / RAND_MAX;
+        }
+
+        new_genomes.push_back(individuo);
+    }
+    return new_genomes;
+}
+
+
 vector<vector<double>> Evo::repopulation(){
 
     vector<vector<double>> new_genomes;
