@@ -1,0 +1,1446 @@
+Nenhum save encontrado. Iniciando do zero.
+-- STARTING NEW SIMULATION --
+Initial params:
+VERSION: Cada robô com meta própria
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 1 ------------------------------- 
+avg score of bot 0 in generation 1 31.034729
+avg score of bot 1 in generation 1 66.164024
+avg score of bot 2 in generation 1 105.889503
+avg score of bot 3 in generation 1 52.475231
+avg score of bot 4 in generation 1 26.749186
+avg score of bot 5 in generation 1 91.404121
+avg score of bot 6 in generation 1 179.702026
+avg score of bot 7 in generation 1 39.508610
+avg score of bot 8 in generation 1 58.597851
+avg score of bot 9 in generation 1 131.448410
+generation 1 avg score: 78.297371
+generation 1 best score: 179.702026
+starting generation 2 ------------------------------- 
+avg score of bot 0 in generation 2 0.000000
+avg score of bot 1 in generation 2 113.214905
+avg score of bot 2 in generation 2 0.000000
+avg score of bot 3 in generation 2 18.391090
+avg score of bot 4 in generation 2 0.000000
+avg score of bot 5 in generation 2 0.000000
+avg score of bot 6 in generation 2 0.000000
+avg score of bot 7 in generation 2 0.000000
+avg score of bot 8 in generation 2 67.547806
+avg score of bot 9 in generation 2 282.527710
+generation 2 avg score: 48.168152
+generation 2 best score: 282.527710
+starting generation 3 ------------------------------- 
+avg score of bot 0 in generation 3 120.177910
+avg score of bot 1 in generation 3 0.000000
+avg score of bot 2 in generation 3 97.559814
+avg score of bot 3 in generation 3 57.378590
+avg score of bot 4 in generation 3 0.000000
+avg score of bot 5 in generation 3 0.000000
+avg score of bot 6 in generation 3 52.239944
+avg score of bot 7 in generation 3 0.000000
+avg score of bot 8 in generation 3 0.000000
+avg score of bot 9 in generation 3 48.484066
+avg score of bot 10 in generation 3 890.166809
+avg score of bot 11 in generation 3 0.000000
+avg score of bot 12 in generation 3 0.000000
+avg score of bot 13 in generation 3 9.262823
+avg score of bot 14 in generation 3 7.098256
+avg score of bot 15 in generation 3 111.498451
+avg score of bot 16 in generation 3 63.995388
+avg score of bot 17 in generation 3 0.000000
+avg score of bot 18 in generation 3 0.000000
+avg score of bot 19 in generation 3 0.000000
+avg score of bot 20 in generation 3 0.000000
+avg score of bot 21 in generation 3 0.000000
+avg score of bot 22 in generation 3 0.000000
+avg score of bot 23 in generation 3 95.364929
+avg score of bot 24 in generation 3 68.426338
+avg score of bot 25 in generation 3 52.223404
+avg score of bot 26 in generation 3 0.000000
+avg score of bot 27 in generation 3 210.772751
+avg score of bot 28 in generation 3 0.000000
+avg score of bot 29 in generation 3 10.794667
+avg score of bot 30 in generation 3 0.000000
+avg score of bot 31 in generation 3 0.000000
+avg score of bot 32 in generation 3 96.734619
+avg score of bot 33 in generation 3 125.447472
+avg score of bot 34 in generation 3 79.516617
+avg score of bot 35 in generation 3 0.000000
+avg score of bot 36 in generation 3 0.000000
+avg score of bot 37 in generation 3 0.000000
+avg score of bot 38 in generation 3 118.682281
+avg score of bot 39 in generation 3 26.241484
+generation 3 avg score: 58.551659
+generation 3 best score: 890.166809
+starting generation 4 ------------------------------- 
+avg score of bot 0 in generation 4 137.036987
+avg score of bot 1 in generation 4 107.432190
+avg score of bot 2 in generation 4 1742.610840
+avg score of bot 3 in generation 4 0.000000
+avg score of bot 4 in generation 4 0.000000
+avg score of bot 5 in generation 4 22.796080
+avg score of bot 6 in generation 4 0.000000
+avg score of bot 7 in generation 4 92.034462
+avg score of bot 8 in generation 4 0.068305
+avg score of bot 9 in generation 4 89.936150
+avg score of bot 10 in generation 4 75.035164
+avg score of bot 11 in generation 4 0.000000
+avg score of bot 12 in generation 4 0.000000
+avg score of bot 13 in generation 4 90.109398
+avg score of bot 14 in generation 4 0.000000
+avg score of bot 15 in generation 4 0.000000
+avg score of bot 16 in generation 4 0.000000
+avg score of bot 17 in generation 4 0.000000
+avg score of bot 18 in generation 4 0.000000
+avg score of bot 19 in generation 4 0.000000
+avg score of bot 20 in generation 4 0.000000
+avg score of bot 21 in generation 4 109.818779
+avg score of bot 22 in generation 4 944.552185
+avg score of bot 23 in generation 4 161.154663
+avg score of bot 24 in generation 4 3.978192
+avg score of bot 25 in generation 4 101.003777
+avg score of bot 26 in generation 4 61.198437
+avg score of bot 27 in generation 4 0.000000
+avg score of bot 28 in generation 4 718.777771
+avg score of bot 29 in generation 4 0.000000
+avg score of bot 30 in generation 4 40.453815
+avg score of bot 31 in generation 4 340.145172
+avg score of bot 32 in generation 4 0.000000
+avg score of bot 33 in generation 4 60.306293
+avg score of bot 34 in generation 4 0.000000
+avg score of bot 35 in generation 4 5.828632
+avg score of bot 36 in generation 4 113.822380
+avg score of bot 37 in generation 4 80.211189
+avg score of bot 38 in generation 4 168.288834
+avg score of bot 39 in generation 4 0.000000
+generation 4 avg score: 131.664993
+generation 4 best score: 1742.610840
+starting generation 5 ------------------------------- 
+avg score of bot 0 in generation 5 885.343445
+avg score of bot 1 in generation 5 78.657288
+avg score of bot 2 in generation 5 1479.824585
+avg score of bot 3 in generation 5 0.000000
+avg score of bot 4 in generation 5 16.700888
+avg score of bot 5 in generation 5 244.652817
+avg score of bot 6 in generation 5 205.589600
+avg score of bot 7 in generation 5 30.095644
+avg score of bot 8 in generation 5 14.698124
+avg score of bot 9 in generation 5 0.000000
+avg score of bot 10 in generation 5 155.873672
+avg score of bot 11 in generation 5 98.883492
+avg score of bot 12 in generation 5 61.189285
+avg score of bot 13 in generation 5 90.337242
+avg score of bot 14 in generation 5 0.000000
+avg score of bot 15 in generation 5 0.000000
+avg score of bot 16 in generation 5 147.914200
+avg score of bot 17 in generation 5 84.730034
+avg score of bot 18 in generation 5 0.000000
+avg score of bot 19 in generation 5 0.000000
+avg score of bot 20 in generation 5 187.262451
+avg score of bot 21 in generation 5 59.212948
+avg score of bot 22 in generation 5 982.438416
+avg score of bot 23 in generation 5 459.536041
+avg score of bot 24 in generation 5 45.770580
+avg score of bot 25 in generation 5 95.033264
+avg score of bot 26 in generation 5 0.000000
+avg score of bot 27 in generation 5 354.839111
+avg score of bot 28 in generation 5 1.890934
+avg score of bot 29 in generation 5 77.458946
+avg score of bot 30 in generation 5 110.085960
+avg score of bot 31 in generation 5 253.970596
+avg score of bot 32 in generation 5 226.093277
+avg score of bot 33 in generation 5 0.000000
+avg score of bot 34 in generation 5 0.000000
+avg score of bot 35 in generation 5 99.106224
+avg score of bot 36 in generation 5 255.254639
+avg score of bot 37 in generation 5 1388.398438
+avg score of bot 38 in generation 5 337.966217
+avg score of bot 39 in generation 5 983.136169
+generation 5 avg score: 237.798615
+generation 5 best score: 1479.824585
+starting generation 6 ------------------------------- 
+avg score of bot 0 in generation 6 173.577072
+avg score of bot 1 in generation 6 161.281174
+avg score of bot 2 in generation 6 111.884010
+avg score of bot 3 in generation 6 1657.589844
+avg score of bot 4 in generation 6 184.551376
+avg score of bot 5 in generation 6 309.408569
+avg score of bot 6 in generation 6 25.372635
+avg score of bot 7 in generation 6 23.359926
+avg score of bot 8 in generation 6 996.054993
+avg score of bot 9 in generation 6 136.385727
+avg score of bot 10 in generation 6 111.342995
+avg score of bot 11 in generation 6 57.061676
+avg score of bot 12 in generation 6 125.978752
+avg score of bot 13 in generation 6 123.953674
+avg score of bot 14 in generation 6 116.672424
+avg score of bot 15 in generation 6 591.508972
+avg score of bot 16 in generation 6 851.626526
+avg score of bot 17 in generation 6 180.257889
+avg score of bot 18 in generation 6 41.210667
+avg score of bot 19 in generation 6 302.519775
+avg score of bot 20 in generation 6 71.512459
+avg score of bot 21 in generation 6 78.843361
+avg score of bot 22 in generation 6 0.000000
+avg score of bot 23 in generation 6 0.000000
+avg score of bot 24 in generation 6 161.727234
+avg score of bot 25 in generation 6 101.500275
+avg score of bot 26 in generation 6 106.023033
+avg score of bot 27 in generation 6 181.859619
+avg score of bot 28 in generation 6 119.620941
+avg score of bot 29 in generation 6 0.182372
+avg score of bot 30 in generation 6 0.000000
+avg score of bot 31 in generation 6 64.825317
+avg score of bot 32 in generation 6 119.317604
+avg score of bot 33 in generation 6 304.204803
+avg score of bot 34 in generation 6 146.096146
+avg score of bot 35 in generation 6 134.622818
+avg score of bot 36 in generation 6 107.256477
+avg score of bot 37 in generation 6 145.660736
+avg score of bot 38 in generation 6 119.986229
+avg score of bot 39 in generation 6 122.919250
+generation 6 avg score: 209.193878
+generation 6 best score: 1657.589844
+starting generation 7 ------------------------------- 
+returned to menu during generation 7
+Retomando de save existente.
+-- STARTING NEW SIMULATION --
+Initial params:
+VERSION: Cada robô com meta própria
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 7 ------------------------------- 
+avg score of bot 0 in generation 7 235.472855
+avg score of bot 1 in generation 7 184.750504
+avg score of bot 2 in generation 7 1814.724121
+avg score of bot 3 in generation 7 220.371216
+avg score of bot 4 in generation 7 187.668381
+avg score of bot 5 in generation 7 250.746017
+avg score of bot 6 in generation 7 164.805191
+avg score of bot 7 in generation 7 223.417847
+avg score of bot 8 in generation 7 276.906586
+avg score of bot 9 in generation 7 98.464836
+avg score of bot 10 in generation 7 336.610809
+avg score of bot 11 in generation 7 44.340984
+avg score of bot 12 in generation 7 682.997864
+avg score of bot 13 in generation 7 97.294647
+avg score of bot 14 in generation 7 79.802765
+avg score of bot 15 in generation 7 115.466225
+avg score of bot 16 in generation 7 125.532417
+avg score of bot 17 in generation 7 192.486435
+avg score of bot 18 in generation 7 110.995850
+avg score of bot 19 in generation 7 59.224964
+avg score of bot 20 in generation 7 75.975662
+avg score of bot 21 in generation 7 0.000000
+avg score of bot 22 in generation 7 82.521141
+avg score of bot 23 in generation 7 1060.269043
+avg score of bot 24 in generation 7 5.865744
+avg score of bot 25 in generation 7 0.000000
+avg score of bot 26 in generation 7 185.814865
+avg score of bot 27 in generation 7 751.226990
+avg score of bot 28 in generation 7 125.963737
+avg score of bot 29 in generation 7 303.739655
+avg score of bot 30 in generation 7 67.809761
+avg score of bot 31 in generation 7 992.519714
+avg score of bot 32 in generation 7 114.305763
+avg score of bot 33 in generation 7 180.599915
+avg score of bot 34 in generation 7 44.191402
+avg score of bot 35 in generation 7 185.960617
+avg score of bot 36 in generation 7 133.823212
+avg score of bot 37 in generation 7 100.984924
+avg score of bot 38 in generation 7 150.415146
+avg score of bot 39 in generation 7 239.965500
+generation 7 avg score: 257.600861
+generation 7 best score: 1814.724121
+starting generation 8 ------------------------------- 
+returned to menu during generation 8
+Retomando de save existente.
+-- STARTING NEW SIMULATION --
+Initial params:
+VERSION: Cada robô com meta própria
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 8 ------------------------------- 
+avg score of bot 0 in generation 8 1215.975830
+avg score of bot 1 in generation 8 178.993942
+avg score of bot 2 in generation 8 94.711731
+avg score of bot 3 in generation 8 1485.234497
+avg score of bot 4 in generation 8 313.937653
+avg score of bot 5 in generation 8 140.801559
+avg score of bot 6 in generation 8 1044.784302
+avg score of bot 7 in generation 8 245.499161
+avg score of bot 8 in generation 8 95.965797
+avg score of bot 9 in generation 8 190.377151
+avg score of bot 10 in generation 8 155.092834
+avg score of bot 11 in generation 8 342.426056
+avg score of bot 12 in generation 8 93.101875
+avg score of bot 13 in generation 8 112.194023
+avg score of bot 14 in generation 8 217.554886
+avg score of bot 15 in generation 8 97.675819
+avg score of bot 16 in generation 8 91.932106
+avg score of bot 17 in generation 8 727.037292
+avg score of bot 18 in generation 8 555.966309
+avg score of bot 19 in generation 8 1111.849854
+avg score of bot 20 in generation 8 149.081482
+avg score of bot 21 in generation 8 1418.317261
+avg score of bot 22 in generation 8 59.835468
+avg score of bot 23 in generation 8 0.000000
+avg score of bot 24 in generation 8 608.906189
+avg score of bot 25 in generation 8 30.223480
+avg score of bot 26 in generation 8 178.263931
+avg score of bot 27 in generation 8 191.059341
+avg score of bot 28 in generation 8 25.438026
+avg score of bot 29 in generation 8 90.535057
+avg score of bot 30 in generation 8 78.906776
+avg score of bot 31 in generation 8 1613.957642
+avg score of bot 32 in generation 8 147.500473
+avg score of bot 33 in generation 8 135.615524
+avg score of bot 34 in generation 8 33.387463
+avg score of bot 35 in generation 8 164.631058
+avg score of bot 36 in generation 8 137.875595
+avg score of bot 37 in generation 8 49.862049
+avg score of bot 38 in generation 8 63.691204
+avg score of bot 39 in generation 8 254.906174
+generation 8 avg score: 348.577698
+generation 8 best score: 1613.957642
+starting generation 9 ------------------------------- 
+avg score of bot 0 in generation 9 1030.189575
+avg score of bot 1 in generation 9 208.978333
+avg score of bot 2 in generation 9 247.879837
+avg score of bot 3 in generation 9 332.900787
+avg score of bot 4 in generation 9 128.167374
+avg score of bot 5 in generation 9 115.260704
+avg score of bot 6 in generation 9 773.858093
+avg score of bot 7 in generation 9 259.566010
+avg score of bot 8 in generation 9 279.540405
+avg score of bot 9 in generation 9 1815.460938
+avg score of bot 10 in generation 9 1922.799194
+avg score of bot 11 in generation 9 228.335526
+avg score of bot 12 in generation 9 255.411743
+avg score of bot 13 in generation 9 1614.089966
+avg score of bot 14 in generation 9 152.748138
+avg score of bot 15 in generation 9 116.717323
+avg score of bot 16 in generation 9 136.293335
+avg score of bot 17 in generation 9 916.654602
+avg score of bot 18 in generation 9 246.087143
+avg score of bot 19 in generation 9 376.295654
+avg score of bot 20 in generation 9 66.846458
+avg score of bot 21 in generation 9 108.705292
+avg score of bot 22 in generation 9 128.264999
+avg score of bot 23 in generation 9 216.836502
+avg score of bot 24 in generation 9 186.805420
+avg score of bot 25 in generation 9 100.767883
+avg score of bot 26 in generation 9 1.291891
+avg score of bot 27 in generation 9 581.247742
+avg score of bot 28 in generation 9 142.569031
+avg score of bot 29 in generation 9 73.677841
+avg score of bot 30 in generation 9 196.681168
+avg score of bot 31 in generation 9 71.890083
+avg score of bot 32 in generation 9 118.226845
+avg score of bot 33 in generation 9 192.040176
+avg score of bot 34 in generation 9 1726.412598
+avg score of bot 35 in generation 9 1100.563843
+avg score of bot 36 in generation 9 1054.211792
+avg score of bot 37 in generation 9 211.188034
+avg score of bot 38 in generation 9 1067.529785
+avg score of bot 39 in generation 9 109.016487
+generation 9 avg score: 465.300140
+generation 9 best score: 1922.799194
+starting generation 10 ------------------------------- 
+avg score of bot 0 in generation 10 265.600159
+avg score of bot 1 in generation 10 228.851196
+avg score of bot 2 in generation 10 178.751205
+avg score of bot 3 in generation 10 82.097176
+avg score of bot 4 in generation 10 1425.362427
+avg score of bot 5 in generation 10 832.839172
+avg score of bot 6 in generation 10 960.572571
+avg score of bot 7 in generation 10 86.513176
+avg score of bot 8 in generation 10 258.577148
+avg score of bot 9 in generation 10 196.195084
+avg score of bot 10 in generation 10 212.425125
+avg score of bot 11 in generation 10 1162.866821
+avg score of bot 12 in generation 10 248.235306
+avg score of bot 13 in generation 10 251.599319
+avg score of bot 14 in generation 10 70.107796
+avg score of bot 15 in generation 10 142.188293
+avg score of bot 16 in generation 10 0.000000
+avg score of bot 17 in generation 10 1674.563354
+avg score of bot 18 in generation 10 0.000000
+avg score of bot 19 in generation 10 281.573761
+avg score of bot 20 in generation 10 1909.849976
+avg score of bot 21 in generation 10 178.206955
+avg score of bot 22 in generation 10 1086.542725
+avg score of bot 23 in generation 10 52.851398
+avg score of bot 24 in generation 10 181.211670
+avg score of bot 25 in generation 10 273.458221
+avg score of bot 26 in generation 10 254.649612
+avg score of bot 27 in generation 10 65.088219
+avg score of bot 28 in generation 10 1614.416626
+avg score of bot 29 in generation 10 29.079355
+avg score of bot 30 in generation 10 152.235031
+avg score of bot 31 in generation 10 1808.422485
+avg score of bot 32 in generation 10 232.946945
+avg score of bot 33 in generation 10 145.832016
+avg score of bot 34 in generation 10 217.363571
+avg score of bot 35 in generation 10 162.207443
+avg score of bot 36 in generation 10 92.606468
+avg score of bot 37 in generation 10 83.462791
+avg score of bot 38 in generation 10 99.682655
+avg score of bot 39 in generation 10 243.568558
+generation 10 avg score: 436.065094
+generation 10 best score: 1909.849976
+starting generation 11 ------------------------------- 
+avg score of bot 0 in generation 11 982.568176
+avg score of bot 1 in generation 11 1007.501953
+avg score of bot 2 in generation 11 115.650757
+avg score of bot 3 in generation 11 310.615936
+avg score of bot 4 in generation 11 131.452209
+avg score of bot 5 in generation 11 105.311729
+avg score of bot 6 in generation 11 114.016884
+avg score of bot 7 in generation 11 938.545898
+avg score of bot 8 in generation 11 245.863586
+avg score of bot 9 in generation 11 286.074127
+avg score of bot 10 in generation 11 181.375809
+avg score of bot 11 in generation 11 135.518204
+avg score of bot 12 in generation 11 523.441101
+avg score of bot 13 in generation 11 123.336708
+avg score of bot 14 in generation 11 931.930237
+avg score of bot 15 in generation 11 882.797607
+avg score of bot 16 in generation 11 126.180565
+avg score of bot 17 in generation 11 881.722656
+avg score of bot 18 in generation 11 190.600906
+avg score of bot 19 in generation 11 127.469231
+avg score of bot 20 in generation 11 1422.808594
+avg score of bot 21 in generation 11 212.943130
+avg score of bot 22 in generation 11 63.518909
+avg score of bot 23 in generation 11 164.584183
+avg score of bot 24 in generation 11 191.479614
+avg score of bot 25 in generation 11 191.232132
+avg score of bot 26 in generation 11 178.204849
+avg score of bot 27 in generation 11 78.513771
+avg score of bot 28 in generation 11 239.824463
+avg score of bot 29 in generation 11 243.572342
+avg score of bot 30 in generation 11 58.838333
+avg score of bot 31 in generation 11 363.812347
+avg score of bot 32 in generation 11 232.420898
+avg score of bot 33 in generation 11 154.028809
+avg score of bot 34 in generation 11 146.405334
+avg score of bot 35 in generation 11 1543.450562
+avg score of bot 36 in generation 11 173.338028
+avg score of bot 37 in generation 11 206.149292
+avg score of bot 38 in generation 11 52.587864
+avg score of bot 39 in generation 11 56.192135
+generation 11 avg score: 357.896973
+generation 11 best score: 1543.450562
+starting generation 12 ------------------------------- 
+avg score of bot 0 in generation 12 785.613770
+avg score of bot 1 in generation 12 333.309113
+avg score of bot 2 in generation 12 84.474091
+avg score of bot 3 in generation 12 146.313904
+avg score of bot 4 in generation 12 72.904884
+avg score of bot 5 in generation 12 935.989319
+avg score of bot 6 in generation 12 178.275345
+avg score of bot 7 in generation 12 839.030579
+avg score of bot 8 in generation 12 265.933594
+avg score of bot 9 in generation 12 270.667511
+avg score of bot 10 in generation 12 6.571745
+avg score of bot 11 in generation 12 172.659424
+avg score of bot 12 in generation 12 1782.388306
+avg score of bot 13 in generation 12 200.342484
+avg score of bot 14 in generation 12 798.791321
+avg score of bot 15 in generation 12 235.907181
+avg score of bot 16 in generation 12 90.096977
+avg score of bot 17 in generation 12 20.417242
+avg score of bot 18 in generation 12 231.696365
+avg score of bot 19 in generation 12 1187.106567
+avg score of bot 20 in generation 12 407.276947
+avg score of bot 21 in generation 12 135.152725
+avg score of bot 22 in generation 12 2282.548828
+avg score of bot 23 in generation 12 380.217865
+avg score of bot 24 in generation 12 1034.695679
+avg score of bot 25 in generation 12 889.550781
+avg score of bot 26 in generation 12 192.575241
+avg score of bot 27 in generation 12 211.061584
+avg score of bot 28 in generation 12 141.414810
+avg score of bot 29 in generation 12 134.033081
+avg score of bot 30 in generation 12 90.901909
+avg score of bot 31 in generation 12 1070.982178
+avg score of bot 32 in generation 12 297.752197
+avg score of bot 33 in generation 12 1061.911499
+avg score of bot 34 in generation 12 92.658447
+avg score of bot 35 in generation 12 120.763458
+avg score of bot 36 in generation 12 123.350586
+avg score of bot 37 in generation 12 47.603199
+avg score of bot 38 in generation 12 205.245834
+avg score of bot 39 in generation 12 82.055367
+generation 12 avg score: 441.006104
+generation 12 best score: 2282.548828
+starting generation 13 ------------------------------- 
+avg score of bot 0 in generation 13 962.113220
+avg score of bot 1 in generation 13 936.616760
+avg score of bot 2 in generation 13 27.016928
+avg score of bot 3 in generation 13 112.686790
+avg score of bot 4 in generation 13 99.173988
+avg score of bot 5 in generation 13 110.684715
+avg score of bot 6 in generation 13 95.665550
+avg score of bot 7 in generation 13 247.528809
+avg score of bot 8 in generation 13 124.907623
+avg score of bot 9 in generation 13 969.281555
+avg score of bot 10 in generation 13 154.486740
+avg score of bot 11 in generation 13 198.692383
+avg score of bot 12 in generation 13 264.329224
+avg score of bot 13 in generation 13 75.001930
+avg score of bot 14 in generation 13 146.488449
+avg score of bot 15 in generation 13 222.220779
+avg score of bot 16 in generation 13 747.223816
+avg score of bot 17 in generation 13 980.600281
+avg score of bot 18 in generation 13 116.915108
+avg score of bot 19 in generation 13 117.072472
+avg score of bot 20 in generation 13 1027.107544
+avg score of bot 21 in generation 13 1401.240356
+avg score of bot 22 in generation 13 200.782578
+avg score of bot 23 in generation 13 147.440445
+avg score of bot 24 in generation 13 280.597748
+avg score of bot 25 in generation 13 236.473572
+avg score of bot 26 in generation 13 245.154648
+avg score of bot 27 in generation 13 1062.552002
+avg score of bot 28 in generation 13 77.025627
+avg score of bot 29 in generation 13 170.556564
+avg score of bot 30 in generation 13 167.634476
+avg score of bot 31 in generation 13 239.629761
+avg score of bot 32 in generation 13 58.221756
+avg score of bot 33 in generation 13 1059.948120
+avg score of bot 34 in generation 13 484.398895
+avg score of bot 35 in generation 13 54.942432
+avg score of bot 36 in generation 13 173.719742
+avg score of bot 37 in generation 13 90.593475
+avg score of bot 38 in generation 13 1640.009888
+avg score of bot 39 in generation 13 100.945183
+generation 13 avg score: 390.692017
+generation 13 best score: 1640.009888
+starting generation 14 ------------------------------- 
+avg score of bot 0 in generation 14 116.886208
+avg score of bot 1 in generation 14 207.610229
+avg score of bot 2 in generation 14 909.965332
+avg score of bot 3 in generation 14 97.089378
+avg score of bot 4 in generation 14 930.477356
+avg score of bot 5 in generation 14 53.207870
+avg score of bot 6 in generation 14 362.766388
+avg score of bot 7 in generation 14 15.290745
+avg score of bot 8 in generation 14 847.494446
+avg score of bot 9 in generation 14 325.133057
+avg score of bot 10 in generation 14 115.735207
+avg score of bot 11 in generation 14 203.269302
+avg score of bot 12 in generation 14 4.525782
+avg score of bot 13 in generation 14 1079.877075
+avg score of bot 14 in generation 14 228.351624
+avg score of bot 15 in generation 14 1030.043335
+avg score of bot 16 in generation 14 187.035080
+avg score of bot 17 in generation 14 154.085968
+avg score of bot 18 in generation 14 80.983284
+avg score of bot 19 in generation 14 206.395691
+avg score of bot 20 in generation 14 443.606964
+avg score of bot 21 in generation 14 113.689476
+avg score of bot 22 in generation 14 70.749367
+avg score of bot 23 in generation 14 149.817017
+avg score of bot 24 in generation 14 100.112663
+avg score of bot 25 in generation 14 125.313354
+avg score of bot 26 in generation 14 588.818726
+avg score of bot 27 in generation 14 150.330093
+avg score of bot 28 in generation 14 237.620117
+avg score of bot 29 in generation 14 122.467010
+avg score of bot 30 in generation 14 172.870239
+avg score of bot 31 in generation 14 162.161087
+avg score of bot 32 in generation 14 160.357681
+avg score of bot 33 in generation 14 151.745407
+avg score of bot 34 in generation 14 0.000000
+avg score of bot 35 in generation 14 481.430908
+avg score of bot 36 in generation 14 2149.450195
+avg score of bot 37 in generation 14 123.453224
+avg score of bot 38 in generation 14 228.199585
+avg score of bot 39 in generation 14 138.141525
+generation 14 avg score: 325.663910
+generation 14 best score: 2149.450195
+starting generation 15 ------------------------------- 
+avg score of bot 0 in generation 15 923.407776
+avg score of bot 1 in generation 15 1307.071167
+avg score of bot 2 in generation 15 1743.749390
+avg score of bot 3 in generation 15 88.759254
+avg score of bot 4 in generation 15 1132.992065
+avg score of bot 5 in generation 15 273.304688
+avg score of bot 6 in generation 15 939.155701
+avg score of bot 7 in generation 15 780.810547
+avg score of bot 8 in generation 15 149.584427
+avg score of bot 9 in generation 15 177.712219
+avg score of bot 10 in generation 15 192.872757
+avg score of bot 11 in generation 15 120.654976
+avg score of bot 12 in generation 15 74.228722
+avg score of bot 13 in generation 15 82.977646
+avg score of bot 14 in generation 15 119.688293
+avg score of bot 15 in generation 15 1911.509277
+avg score of bot 16 in generation 15 83.866638
+avg score of bot 17 in generation 15 672.324890
+avg score of bot 18 in generation 15 75.018478
+avg score of bot 19 in generation 15 47.867077
+avg score of bot 20 in generation 15 358.912506
+avg score of bot 21 in generation 15 148.243225
+avg score of bot 22 in generation 15 180.588928
+avg score of bot 23 in generation 15 1884.591919
+avg score of bot 24 in generation 15 1017.084167
+avg score of bot 25 in generation 15 136.969849
+avg score of bot 26 in generation 15 334.593292
+avg score of bot 27 in generation 15 83.176994
+avg score of bot 28 in generation 15 719.969788
+avg score of bot 29 in generation 15 209.726318
+avg score of bot 30 in generation 15 279.555817
+avg score of bot 31 in generation 15 153.527252
+avg score of bot 32 in generation 15 1020.345764
+avg score of bot 33 in generation 15 228.783524
+avg score of bot 34 in generation 15 147.335037
+avg score of bot 35 in generation 15 237.810806
+avg score of bot 36 in generation 15 152.636063
+avg score of bot 37 in generation 15 3.847297
+avg score of bot 38 in generation 15 1052.951050
+avg score of bot 39 in generation 15 82.663597
+generation 15 avg score: 483.271729
+generation 15 best score: 1911.509277
+starting generation 16 ------------------------------- 
+avg score of bot 0 in generation 16 900.064941
+avg score of bot 1 in generation 16 224.545227
+avg score of bot 2 in generation 16 123.011620
+avg score of bot 3 in generation 16 795.423767
+avg score of bot 4 in generation 16 136.953384
+avg score of bot 5 in generation 16 1274.482422
+avg score of bot 6 in generation 16 210.835098
+avg score of bot 7 in generation 16 102.514160
+avg score of bot 8 in generation 16 103.500145
+avg score of bot 9 in generation 16 144.244888
+avg score of bot 10 in generation 16 1727.239258
+avg score of bot 11 in generation 16 180.144104
+avg score of bot 12 in generation 16 214.830612
+avg score of bot 13 in generation 16 228.907791
+avg score of bot 14 in generation 16 134.971329
+avg score of bot 15 in generation 16 45.535358
+avg score of bot 16 in generation 16 275.230316
+avg score of bot 17 in generation 16 1841.979614
+avg score of bot 18 in generation 16 209.303467
+avg score of bot 19 in generation 16 437.334625
+avg score of bot 20 in generation 16 1904.591797
+avg score of bot 21 in generation 16 7.511048
+avg score of bot 22 in generation 16 156.780655
+avg score of bot 23 in generation 16 126.278114
+avg score of bot 24 in generation 16 43.730946
+avg score of bot 25 in generation 16 199.917603
+avg score of bot 26 in generation 16 0.000000
+avg score of bot 27 in generation 16 143.806473
+avg score of bot 28 in generation 16 155.864731
+avg score of bot 29 in generation 16 82.309975
+avg score of bot 30 in generation 16 163.788071
+avg score of bot 31 in generation 16 74.895485
+avg score of bot 32 in generation 16 229.917709
+avg score of bot 33 in generation 16 154.314804
+avg score of bot 34 in generation 16 107.240593
+avg score of bot 35 in generation 16 28.551910
+avg score of bot 36 in generation 16 133.480972
+avg score of bot 37 in generation 16 156.146973
+avg score of bot 38 in generation 16 235.215652
+avg score of bot 39 in generation 16 220.560989
+generation 16 avg score: 340.898895
+generation 16 best score: 1904.591797
+starting generation 17 ------------------------------- 
+avg score of bot 0 in generation 17 231.886734
+avg score of bot 1 in generation 17 129.164001
+avg score of bot 2 in generation 17 297.362976
+avg score of bot 3 in generation 17 183.518112
+avg score of bot 4 in generation 17 41.177376
+avg score of bot 5 in generation 17 174.516235
+avg score of bot 6 in generation 17 1016.573181
+avg score of bot 7 in generation 17 891.703064
+avg score of bot 8 in generation 17 178.820251
+avg score of bot 9 in generation 17 122.096527
+avg score of bot 10 in generation 17 171.598495
+avg score of bot 11 in generation 17 184.576431
+avg score of bot 12 in generation 17 158.515182
+avg score of bot 13 in generation 17 283.506012
+avg score of bot 14 in generation 17 236.870316
+avg score of bot 15 in generation 17 217.857254
+avg score of bot 16 in generation 17 111.624573
+avg score of bot 17 in generation 17 90.264954
+avg score of bot 18 in generation 17 236.291031
+avg score of bot 19 in generation 17 1475.859497
+avg score of bot 20 in generation 17 126.999626
+avg score of bot 21 in generation 17 54.139893
+avg score of bot 22 in generation 17 67.841255
+avg score of bot 23 in generation 17 106.847534
+avg score of bot 24 in generation 17 40.790459
+avg score of bot 25 in generation 17 158.928955
+avg score of bot 26 in generation 17 698.824219
+avg score of bot 27 in generation 17 277.490967
+avg score of bot 28 in generation 17 143.186813
+avg score of bot 29 in generation 17 37.283619
+avg score of bot 30 in generation 17 604.141724
+avg score of bot 31 in generation 17 169.267685
+avg score of bot 32 in generation 17 563.998230
+avg score of bot 33 in generation 17 105.912109
+avg score of bot 34 in generation 17 26.719414
+avg score of bot 35 in generation 17 175.756104
+avg score of bot 36 in generation 17 252.928711
+avg score of bot 37 in generation 17 114.519493
+avg score of bot 38 in generation 17 139.902649
+avg score of bot 39 in generation 17 174.341232
+generation 17 avg score: 261.840057
+generation 17 best score: 1475.859497
+starting generation 18 ------------------------------- 
+avg score of bot 0 in generation 18 226.464554
+avg score of bot 1 in generation 18 887.989258
+avg score of bot 2 in generation 18 1041.850464
+avg score of bot 3 in generation 18 126.773346
+avg score of bot 4 in generation 18 951.977234
+avg score of bot 5 in generation 18 103.465454
+avg score of bot 6 in generation 18 194.845825
+avg score of bot 7 in generation 18 81.557869
+avg score of bot 8 in generation 18 33.149349
+avg score of bot 9 in generation 18 505.539948
+avg score of bot 10 in generation 18 422.339691
+avg score of bot 11 in generation 18 985.216797
+avg score of bot 12 in generation 18 179.685791
+avg score of bot 13 in generation 18 99.952095
+avg score of bot 14 in generation 18 1902.862305
+avg score of bot 15 in generation 18 187.284073
+avg score of bot 16 in generation 18 48.976025
+avg score of bot 17 in generation 18 188.331589
+avg score of bot 18 in generation 18 232.338135
+avg score of bot 19 in generation 18 15.183141
+avg score of bot 20 in generation 18 152.689224
+avg score of bot 21 in generation 18 212.049759
+avg score of bot 22 in generation 18 149.969070
+avg score of bot 23 in generation 18 80.653610
+avg score of bot 24 in generation 18 186.375626
+avg score of bot 25 in generation 18 112.671242
+avg score of bot 26 in generation 18 120.301537
+avg score of bot 27 in generation 18 133.537979
+avg score of bot 28 in generation 18 135.495300
+avg score of bot 29 in generation 18 311.243561
+avg score of bot 30 in generation 18 157.533188
+avg score of bot 31 in generation 18 151.415054
+avg score of bot 32 in generation 18 10.114458
+avg score of bot 33 in generation 18 37.329540
+avg score of bot 34 in generation 18 73.732613
+avg score of bot 35 in generation 18 1584.179077
+avg score of bot 36 in generation 18 523.461792
+avg score of bot 37 in generation 18 187.270630
+avg score of bot 38 in generation 18 148.634262
+avg score of bot 39 in generation 18 163.629578
+generation 18 avg score: 326.201721
+generation 18 best score: 1902.862305
+starting generation 19 ------------------------------- 
+avg score of bot 0 in generation 19 201.281174
+avg score of bot 1 in generation 19 308.253906
+avg score of bot 2 in generation 19 162.143890
+avg score of bot 3 in generation 19 1015.438538
+avg score of bot 4 in generation 19 264.273041
+avg score of bot 5 in generation 19 99.252159
+avg score of bot 6 in generation 19 234.391769
+avg score of bot 7 in generation 19 968.955750
+avg score of bot 8 in generation 19 1085.434082
+avg score of bot 9 in generation 19 262.926239
+avg score of bot 10 in generation 19 223.627930
+avg score of bot 11 in generation 19 154.228134
+avg score of bot 12 in generation 19 242.487427
+avg score of bot 13 in generation 19 120.095116
+avg score of bot 14 in generation 19 122.793846
+avg score of bot 15 in generation 19 38.891418
+avg score of bot 16 in generation 19 126.337975
+avg score of bot 17 in generation 19 185.018784
+avg score of bot 18 in generation 19 115.602089
+avg score of bot 19 in generation 19 230.888321
+avg score of bot 20 in generation 19 269.499359
+avg score of bot 21 in generation 19 184.681259
+avg score of bot 22 in generation 19 284.385406
+avg score of bot 23 in generation 19 192.437378
+avg score of bot 24 in generation 19 232.700912
+avg score of bot 25 in generation 19 277.143280
+avg score of bot 26 in generation 19 164.833496
+avg score of bot 27 in generation 19 2115.959717
+avg score of bot 28 in generation 19 134.665833
+avg score of bot 29 in generation 19 211.022827
+avg score of bot 30 in generation 19 242.422256
+avg score of bot 31 in generation 19 146.244415
+avg score of bot 32 in generation 19 147.572433
+avg score of bot 33 in generation 19 366.865967
+avg score of bot 34 in generation 19 54.530807
+avg score of bot 35 in generation 19 108.703407
+avg score of bot 36 in generation 19 1582.501953
+avg score of bot 37 in generation 19 35.112411
+avg score of bot 38 in generation 19 212.733170
+avg score of bot 39 in generation 19 2329.361084
+generation 19 avg score: 386.392456
+generation 19 best score: 2329.361084
+starting generation 20 ------------------------------- 
+avg score of bot 0 in generation 20 209.129318
+avg score of bot 1 in generation 20 964.154236
+avg score of bot 2 in generation 20 1044.534790
+avg score of bot 3 in generation 20 288.856323
+avg score of bot 4 in generation 20 956.894714
+avg score of bot 5 in generation 20 959.867126
+avg score of bot 6 in generation 20 956.752014
+avg score of bot 7 in generation 20 282.421631
+avg score of bot 8 in generation 20 288.121246
+avg score of bot 9 in generation 20 181.230850
+avg score of bot 10 in generation 20 140.360001
+avg score of bot 11 in generation 20 1006.812500
+avg score of bot 12 in generation 20 314.208649
+avg score of bot 13 in generation 20 89.964569
+avg score of bot 14 in generation 20 1317.668579
+avg score of bot 15 in generation 20 63.477203
+avg score of bot 16 in generation 20 29.971212
+avg score of bot 17 in generation 20 948.598450
+avg score of bot 18 in generation 20 85.932152
+avg score of bot 19 in generation 20 227.038132
+avg score of bot 20 in generation 20 141.655136
+avg score of bot 21 in generation 20 194.990295
+avg score of bot 22 in generation 20 229.918091
+avg score of bot 23 in generation 20 39.370220
+avg score of bot 24 in generation 20 122.535522
+avg score of bot 25 in generation 20 215.768326
+avg score of bot 26 in generation 20 93.388855
+avg score of bot 27 in generation 20 101.679962
+avg score of bot 28 in generation 20 68.311501
+avg score of bot 29 in generation 20 171.124832
+avg score of bot 30 in generation 20 141.744766
+avg score of bot 31 in generation 20 220.095581
+avg score of bot 32 in generation 20 149.673599
+avg score of bot 33 in generation 20 33.342899
+avg score of bot 34 in generation 20 99.398460
+avg score of bot 35 in generation 20 257.469574
+avg score of bot 36 in generation 20 67.675270
+avg score of bot 37 in generation 20 164.462265
+avg score of bot 38 in generation 20 82.714371
+avg score of bot 39 in generation 20 128.186783
+generation 20 avg score: 326.987518
+generation 20 best score: 1317.668579
+starting generation 21 ------------------------------- 
+avg score of bot 0 in generation 21 40.555134
+avg score of bot 1 in generation 21 376.235229
+avg score of bot 2 in generation 21 104.106262
+avg score of bot 3 in generation 21 265.062378
+avg score of bot 4 in generation 21 79.507835
+avg score of bot 5 in generation 21 177.579910
+avg score of bot 6 in generation 21 673.239746
+avg score of bot 7 in generation 21 53.015507
+avg score of bot 8 in generation 21 32.440853
+avg score of bot 9 in generation 21 124.860191
+avg score of bot 10 in generation 21 20.525473
+avg score of bot 11 in generation 21 317.633453
+avg score of bot 12 in generation 21 230.956161
+avg score of bot 13 in generation 21 197.776443
+avg score of bot 14 in generation 21 1025.264526
+avg score of bot 15 in generation 21 1117.644287
+avg score of bot 16 in generation 21 62.290939
+avg score of bot 17 in generation 21 191.035110
+avg score of bot 18 in generation 21 563.978455
+avg score of bot 19 in generation 21 187.571487
+avg score of bot 20 in generation 21 161.775696
+avg score of bot 21 in generation 21 154.203735
+avg score of bot 22 in generation 21 196.189957
+avg score of bot 23 in generation 21 142.796326
+avg score of bot 24 in generation 21 297.292786
+avg score of bot 25 in generation 21 12.288026
+avg score of bot 26 in generation 21 177.481064
+avg score of bot 27 in generation 21 75.762383
+avg score of bot 28 in generation 21 820.616150
+avg score of bot 29 in generation 21 251.920639
+avg score of bot 30 in generation 21 240.614822
+avg score of bot 31 in generation 21 807.693359
+avg score of bot 32 in generation 21 197.903854
+avg score of bot 33 in generation 21 279.281158
+avg score of bot 34 in generation 21 257.747284
+avg score of bot 35 in generation 21 114.425148
+avg score of bot 36 in generation 21 726.953430
+avg score of bot 37 in generation 21 308.140961
+avg score of bot 38 in generation 21 131.999130
+avg score of bot 39 in generation 21 138.735031
+generation 21 avg score: 283.377502
+generation 21 best score: 1117.644287
+starting generation 22 ------------------------------- 
+avg score of bot 0 in generation 22 1752.944946
+avg score of bot 1 in generation 22 136.114716
+avg score of bot 2 in generation 22 970.065613
+avg score of bot 3 in generation 22 198.177933
+avg score of bot 4 in generation 22 962.677307
+avg score of bot 5 in generation 22 1654.748413
+avg score of bot 6 in generation 22 176.353500
+avg score of bot 7 in generation 22 999.376465
+avg score of bot 8 in generation 22 150.578003
+avg score of bot 9 in generation 22 237.200073
+avg score of bot 10 in generation 22 655.257446
+avg score of bot 11 in generation 22 155.214645
+avg score of bot 12 in generation 22 191.450317
+avg score of bot 13 in generation 22 676.742371
+avg score of bot 14 in generation 22 221.626816
+avg score of bot 15 in generation 22 1050.773438
+avg score of bot 16 in generation 22 213.901016
+avg score of bot 17 in generation 22 672.700134
+avg score of bot 18 in generation 22 105.525085
+avg score of bot 19 in generation 22 260.148285
+avg score of bot 20 in generation 22 138.128281
+avg score of bot 21 in generation 22 1776.595093
+avg score of bot 22 in generation 22 127.317108
+avg score of bot 23 in generation 22 233.461624
+avg score of bot 24 in generation 22 48.854568
+avg score of bot 25 in generation 22 145.376266
+avg score of bot 26 in generation 22 82.158241
+avg score of bot 27 in generation 22 61.811939
+avg score of bot 28 in generation 22 186.746414
+avg score of bot 29 in generation 22 141.622681
+avg score of bot 30 in generation 22 167.652115
+avg score of bot 31 in generation 22 186.650757
+avg score of bot 32 in generation 22 624.841248
+avg score of bot 33 in generation 22 1594.354370
+avg score of bot 34 in generation 22 96.491005
+avg score of bot 35 in generation 22 171.322464
+avg score of bot 36 in generation 22 95.246819
+avg score of bot 37 in generation 22 68.425171
+avg score of bot 38 in generation 22 731.873352
+avg score of bot 39 in generation 22 108.985817
+generation 22 avg score: 455.737244
+generation 22 best score: 1776.595093
+starting generation 23 ------------------------------- 
+avg score of bot 0 in generation 23 1182.595581
+avg score of bot 1 in generation 23 218.266678
+avg score of bot 2 in generation 23 117.745018
+avg score of bot 3 in generation 23 0.000000
+avg score of bot 4 in generation 23 220.309143
+avg score of bot 5 in generation 23 159.617615
+avg score of bot 6 in generation 23 209.394714
+avg score of bot 7 in generation 23 188.960373
+avg score of bot 8 in generation 23 57.559750
+avg score of bot 9 in generation 23 140.183762
+avg score of bot 10 in generation 23 148.729965
+avg score of bot 11 in generation 23 925.546082
+avg score of bot 12 in generation 23 146.211166
+avg score of bot 13 in generation 23 488.556061
+avg score of bot 14 in generation 23 94.616737
+avg score of bot 15 in generation 23 160.209793
+avg score of bot 16 in generation 23 146.227127
+avg score of bot 17 in generation 23 130.150742
+avg score of bot 18 in generation 23 11.426544
+avg score of bot 19 in generation 23 12.019081
+avg score of bot 20 in generation 23 162.322220
+avg score of bot 21 in generation 23 755.099426
+avg score of bot 22 in generation 23 199.578568
+avg score of bot 23 in generation 23 358.395599
+avg score of bot 24 in generation 23 64.032082
+avg score of bot 25 in generation 23 139.132339
+avg score of bot 26 in generation 23 1632.648071
+avg score of bot 27 in generation 23 1526.725952
+avg score of bot 28 in generation 23 7.101747
+avg score of bot 29 in generation 23 113.959618
+avg score of bot 30 in generation 23 997.398254
+avg score of bot 31 in generation 23 219.812790
+avg score of bot 32 in generation 23 198.559509
+avg score of bot 33 in generation 23 247.588135
+avg score of bot 34 in generation 23 63.517193
+avg score of bot 35 in generation 23 184.761124
+avg score of bot 36 in generation 23 308.629303
+avg score of bot 37 in generation 23 114.386742
+avg score of bot 38 in generation 23 180.376205
+avg score of bot 39 in generation 23 141.001648
+generation 23 avg score: 309.333801
+generation 23 best score: 1632.648071
+starting generation 24 ------------------------------- 
+avg score of bot 0 in generation 24 684.548828
+avg score of bot 1 in generation 24 1056.530151
+avg score of bot 2 in generation 24 198.824951
+avg score of bot 3 in generation 24 234.263977
+avg score of bot 4 in generation 24 245.525879
+avg score of bot 5 in generation 24 0.000000
+avg score of bot 6 in generation 24 116.475471
+avg score of bot 7 in generation 24 143.921310
+avg score of bot 8 in generation 24 261.794189
+avg score of bot 9 in generation 24 115.337486
+avg score of bot 10 in generation 24 501.951813
+avg score of bot 11 in generation 24 266.757690
+avg score of bot 12 in generation 24 207.063965
+avg score of bot 13 in generation 24 1300.562866
+avg score of bot 14 in generation 24 162.159988
+avg score of bot 15 in generation 24 128.186966
+avg score of bot 16 in generation 24 108.525887
+avg score of bot 17 in generation 24 2573.339844
+avg score of bot 18 in generation 24 238.562057
+avg score of bot 19 in generation 24 279.381439
+avg score of bot 20 in generation 24 300.066071
+avg score of bot 21 in generation 24 280.689392
+avg score of bot 22 in generation 24 94.110985
+avg score of bot 23 in generation 24 199.075134
+avg score of bot 24 in generation 24 221.186401
+avg score of bot 25 in generation 24 350.820343
+avg score of bot 26 in generation 24 586.558533
+avg score of bot 27 in generation 24 490.894989
+avg score of bot 28 in generation 24 237.480148
+avg score of bot 29 in generation 24 1029.783325
+avg score of bot 30 in generation 24 45.346447
+avg score of bot 31 in generation 24 498.995483
+avg score of bot 32 in generation 24 328.469086
+avg score of bot 33 in generation 24 963.369690
+avg score of bot 34 in generation 24 199.367065
+avg score of bot 35 in generation 24 818.910339
+avg score of bot 36 in generation 24 78.579254
+avg score of bot 37 in generation 24 200.922928
+avg score of bot 38 in generation 24 147.506180
+avg score of bot 39 in generation 24 148.006165
+generation 24 avg score: 401.096344
+generation 24 best score: 2573.339844
+starting generation 25 ------------------------------- 
+avg score of bot 0 in generation 25 434.982269
+avg score of bot 1 in generation 25 194.127197
+avg score of bot 2 in generation 25 295.004150
+avg score of bot 3 in generation 25 90.641815
+avg score of bot 4 in generation 25 354.463226
+avg score of bot 5 in generation 25 255.035522
+avg score of bot 6 in generation 25 997.538513
+avg score of bot 7 in generation 25 102.483330
+avg score of bot 8 in generation 25 165.386734
+avg score of bot 9 in generation 25 175.135025
+avg score of bot 10 in generation 25 213.197220
+avg score of bot 11 in generation 25 214.781601
+avg score of bot 12 in generation 25 1035.786499
+avg score of bot 13 in generation 25 291.997101
+avg score of bot 14 in generation 25 187.150391
+avg score of bot 15 in generation 25 215.673508
+avg score of bot 16 in generation 25 109.707672
+avg score of bot 17 in generation 25 153.083221
+avg score of bot 18 in generation 25 162.562012
+avg score of bot 19 in generation 25 157.874084
+avg score of bot 20 in generation 25 18.537603
+avg score of bot 21 in generation 25 987.669128
+avg score of bot 22 in generation 25 1120.201782
+avg score of bot 23 in generation 25 146.003952
+avg score of bot 24 in generation 25 1068.023071
+avg score of bot 25 in generation 25 167.393768
+avg score of bot 26 in generation 25 149.253647
+avg score of bot 27 in generation 25 90.708519
+avg score of bot 28 in generation 25 926.611023
+avg score of bot 29 in generation 25 179.637314
+avg score of bot 30 in generation 25 124.961327
+avg score of bot 31 in generation 25 901.187744
+avg score of bot 32 in generation 25 123.692841
+avg score of bot 33 in generation 25 262.527191
+avg score of bot 34 in generation 25 135.773117
+avg score of bot 35 in generation 25 166.082672
+avg score of bot 36 in generation 25 60.393311
+avg score of bot 37 in generation 25 1124.135376
+avg score of bot 38 in generation 25 152.286575
+avg score of bot 39 in generation 25 242.251419
+generation 25 avg score: 348.848572
+generation 25 best score: 1124.135376
+starting generation 26 ------------------------------- 
+avg score of bot 0 in generation 26 237.477921
+avg score of bot 1 in generation 26 282.734955
+avg score of bot 2 in generation 26 300.053619
+avg score of bot 3 in generation 26 74.087318
+avg score of bot 4 in generation 26 186.291916
+avg score of bot 5 in generation 26 191.341354
+avg score of bot 6 in generation 26 180.755325
+avg score of bot 7 in generation 26 977.568604
+avg score of bot 8 in generation 26 314.230896
+avg score of bot 9 in generation 26 275.401764
+avg score of bot 10 in generation 26 308.502350
+avg score of bot 11 in generation 26 439.630890
+avg score of bot 12 in generation 26 188.440125
+avg score of bot 13 in generation 26 258.016327
+avg score of bot 14 in generation 26 283.508331
+avg score of bot 15 in generation 26 869.724304
+avg score of bot 16 in generation 26 80.102669
+avg score of bot 17 in generation 26 2.825194
+avg score of bot 18 in generation 26 245.863693
+avg score of bot 19 in generation 26 1018.699524
+avg score of bot 20 in generation 26 212.901688
+avg score of bot 21 in generation 26 131.492661
+avg score of bot 22 in generation 26 1762.477539
+avg score of bot 23 in generation 26 208.768555
+avg score of bot 24 in generation 26 165.911484
+avg score of bot 25 in generation 26 519.774841
+avg score of bot 26 in generation 26 1606.982422
+avg score of bot 27 in generation 26 888.347717
+avg score of bot 28 in generation 26 153.072891
+avg score of bot 29 in generation 26 127.823547
+avg score of bot 30 in generation 26 207.492554
+avg score of bot 31 in generation 26 198.609619
+avg score of bot 32 in generation 26 230.015732
+avg score of bot 33 in generation 26 1010.779602
+avg score of bot 34 in generation 26 5.523954
+avg score of bot 35 in generation 26 105.592751
+avg score of bot 36 in generation 26 226.929184
+avg score of bot 37 in generation 26 947.657227
+avg score of bot 38 in generation 26 23.639456
+avg score of bot 39 in generation 26 120.442383
+generation 26 avg score: 389.237274
+generation 26 best score: 1762.477539
+starting generation 27 ------------------------------- 
+avg score of bot 0 in generation 27 1090.378784
+avg score of bot 1 in generation 27 504.884399
+avg score of bot 2 in generation 27 552.414917
+avg score of bot 3 in generation 27 819.779846
+avg score of bot 4 in generation 27 279.500946
+avg score of bot 5 in generation 27 135.909302
+avg score of bot 6 in generation 27 292.097321
+avg score of bot 7 in generation 27 235.332108
+avg score of bot 8 in generation 27 2251.990479
+avg score of bot 9 in generation 27 898.947083
+avg score of bot 10 in generation 27 1479.472046
+avg score of bot 11 in generation 27 223.447281
+avg score of bot 12 in generation 27 229.952759
+avg score of bot 13 in generation 27 211.172287
+avg score of bot 14 in generation 27 146.510941
+avg score of bot 15 in generation 27 1272.246704
+avg score of bot 16 in generation 27 1018.040710
+avg score of bot 17 in generation 27 143.708481
+avg score of bot 18 in generation 27 233.021286
+avg score of bot 19 in generation 27 166.524368
+avg score of bot 20 in generation 27 1053.847168
+avg score of bot 21 in generation 27 234.128784
+avg score of bot 22 in generation 27 440.161530
+avg score of bot 23 in generation 27 250.204941
+avg score of bot 24 in generation 27 141.887070
+avg score of bot 25 in generation 27 326.799591
+avg score of bot 26 in generation 27 717.786316
+avg score of bot 27 in generation 27 219.140442
+avg score of bot 28 in generation 27 172.513977
+avg score of bot 29 in generation 27 765.801453
+avg score of bot 30 in generation 27 1006.509094
+avg score of bot 31 in generation 27 96.911537
+avg score of bot 32 in generation 27 304.285767
+avg score of bot 33 in generation 27 237.225632
+avg score of bot 34 in generation 27 131.954163
+avg score of bot 35 in generation 27 175.336304
+avg score of bot 36 in generation 27 361.327667
+avg score of bot 37 in generation 27 969.806885
+avg score of bot 38 in generation 27 945.259033
+avg score of bot 39 in generation 27 27.889679
+generation 27 avg score: 519.102844
+generation 27 best score: 2251.990479
+starting generation 28 ------------------------------- 
+avg score of bot 0 in generation 28 182.472458
+avg score of bot 1 in generation 28 203.223206
+avg score of bot 2 in generation 28 1077.199707
+avg score of bot 3 in generation 28 1018.975098
+avg score of bot 4 in generation 28 1057.465698
+avg score of bot 5 in generation 28 2884.697266
+avg score of bot 6 in generation 28 272.876495
+avg score of bot 7 in generation 28 254.477844
+avg score of bot 8 in generation 28 286.228882
+avg score of bot 9 in generation 28 147.105301
+avg score of bot 10 in generation 28 140.273666
+avg score of bot 11 in generation 28 134.680023
+avg score of bot 12 in generation 28 277.528656
+avg score of bot 13 in generation 28 177.899353
+avg score of bot 14 in generation 28 1052.234009
+avg score of bot 15 in generation 28 1024.816772
+avg score of bot 16 in generation 28 225.996216
+avg score of bot 17 in generation 28 245.942947
+avg score of bot 18 in generation 28 211.517136
+avg score of bot 19 in generation 28 231.652588
+avg score of bot 20 in generation 28 117.399483
+avg score of bot 21 in generation 28 147.823425
+avg score of bot 22 in generation 28 1075.991211
+avg score of bot 23 in generation 28 98.639397
+avg score of bot 24 in generation 28 120.305931
+avg score of bot 25 in generation 28 314.797699
+avg score of bot 26 in generation 28 387.851471
+avg score of bot 27 in generation 28 276.458130
+avg score of bot 28 in generation 28 214.688309
+avg score of bot 29 in generation 28 262.521332
+avg score of bot 30 in generation 28 272.285065
+avg score of bot 31 in generation 28 198.905945
+avg score of bot 32 in generation 28 179.531174
+avg score of bot 33 in generation 28 1062.785645
+avg score of bot 34 in generation 28 193.081070
+avg score of bot 35 in generation 28 136.571671
+avg score of bot 36 in generation 28 228.041016
+avg score of bot 37 in generation 28 1054.404297
+avg score of bot 38 in generation 28 206.663101
+avg score of bot 39 in generation 28 179.364670
+generation 28 avg score: 445.884430
+generation 28 best score: 2884.697266
+starting generation 29 ------------------------------- 
+avg score of bot 0 in generation 29 265.616364
+avg score of bot 1 in generation 29 359.290436
+avg score of bot 2 in generation 29 188.746567
+avg score of bot 3 in generation 29 180.521988
+avg score of bot 4 in generation 29 313.563019
+avg score of bot 5 in generation 29 87.885216
+avg score of bot 6 in generation 29 64.053009
+avg score of bot 7 in generation 29 227.117355
+avg score of bot 8 in generation 29 778.747742
+avg score of bot 9 in generation 29 220.236191
+avg score of bot 10 in generation 29 157.935654
+avg score of bot 11 in generation 29 260.271210
+avg score of bot 12 in generation 29 286.093567
+avg score of bot 13 in generation 29 1146.895630
+avg score of bot 14 in generation 29 1304.671509
+avg score of bot 15 in generation 29 50.331726
+avg score of bot 16 in generation 29 97.770203
+avg score of bot 17 in generation 29 170.784409
+avg score of bot 18 in generation 29 77.948616
+avg score of bot 19 in generation 29 240.946213
+avg score of bot 20 in generation 29 134.635361
+avg score of bot 21 in generation 29 149.176071
+avg score of bot 22 in generation 29 283.111053
+avg score of bot 23 in generation 29 177.210831
+avg score of bot 24 in generation 29 171.136887
+avg score of bot 25 in generation 29 188.118820
+avg score of bot 26 in generation 29 1918.854858
+avg score of bot 27 in generation 29 915.977783
+avg score of bot 28 in generation 29 219.502426
+avg score of bot 29 in generation 29 182.099075
+avg score of bot 30 in generation 29 429.914581
+avg score of bot 31 in generation 29 197.623398
+avg score of bot 32 in generation 29 218.086777
+avg score of bot 33 in generation 29 76.022148
+avg score of bot 34 in generation 29 119.728981
+avg score of bot 35 in generation 29 144.826050
+avg score of bot 36 in generation 29 256.904083
+avg score of bot 37 in generation 29 726.707031
+avg score of bot 38 in generation 29 1009.991882
+avg score of bot 39 in generation 29 3613.651611
+generation 29 avg score: 440.317627
+generation 29 best score: 3613.651611
+starting generation 30 ------------------------------- 
+avg score of bot 0 in generation 30 280.840210
+avg score of bot 1 in generation 30 216.038010
+avg score of bot 2 in generation 30 191.168961
+avg score of bot 3 in generation 30 134.760666
+avg score of bot 4 in generation 30 119.335518
+avg score of bot 5 in generation 30 270.397186
+avg score of bot 6 in generation 30 222.380692
+avg score of bot 7 in generation 30 54.566238
+avg score of bot 8 in generation 30 216.742813
+avg score of bot 9 in generation 30 245.553757
+avg score of bot 10 in generation 30 195.132080
+avg score of bot 11 in generation 30 1044.258301
+avg score of bot 12 in generation 30 198.392944
+avg score of bot 13 in generation 30 215.048904
+avg score of bot 14 in generation 30 317.287415
+avg score of bot 15 in generation 30 279.689453
+avg score of bot 16 in generation 30 183.365250
+avg score of bot 17 in generation 30 1055.530640
+avg score of bot 18 in generation 30 1095.214355
+avg score of bot 19 in generation 30 365.159454
+avg score of bot 20 in generation 30 174.373703
+avg score of bot 21 in generation 30 826.078613
+avg score of bot 22 in generation 30 1489.598633
+avg score of bot 23 in generation 30 217.785461
+avg score of bot 24 in generation 30 105.721382
+avg score of bot 25 in generation 30 198.525833
+avg score of bot 26 in generation 30 141.773651
+avg score of bot 27 in generation 30 195.817871
+avg score of bot 28 in generation 30 1510.686890
+avg score of bot 29 in generation 30 101.902855
+avg score of bot 30 in generation 30 53.848362
+avg score of bot 31 in generation 30 168.793274
+avg score of bot 32 in generation 30 35.830879
+avg score of bot 33 in generation 30 207.001831
+avg score of bot 34 in generation 30 192.979416
+avg score of bot 35 in generation 30 148.512436
+avg score of bot 36 in generation 30 240.871826
+avg score of bot 37 in generation 30 51.589611
+avg score of bot 38 in generation 30 990.992981
+avg score of bot 39 in generation 30 1128.689819
+generation 30 avg score: 377.055969
+generation 30 best score: 1510.686890
+starting generation 31 ------------------------------- 
+avg score of bot 0 in generation 31 1080.941040
+avg score of bot 1 in generation 31 1040.308350
+avg score of bot 2 in generation 31 94.890320
+avg score of bot 3 in generation 31 312.800232
+avg score of bot 4 in generation 31 1898.926392
+avg score of bot 5 in generation 31 309.406830
+avg score of bot 6 in generation 31 220.838058
+avg score of bot 7 in generation 31 164.665497
+avg score of bot 8 in generation 31 1063.319214
+avg score of bot 9 in generation 31 217.827713
+avg score of bot 10 in generation 31 29.218851
+avg score of bot 11 in generation 31 204.600967
+avg score of bot 12 in generation 31 178.428238
+avg score of bot 13 in generation 31 955.525879
+avg score of bot 14 in generation 31 235.315475
+avg score of bot 15 in generation 31 360.264160
+avg score of bot 16 in generation 31 488.904205
+avg score of bot 17 in generation 31 194.943359
+avg score of bot 18 in generation 31 74.265900
+avg score of bot 19 in generation 31 224.866959
+avg score of bot 20 in generation 31 2419.263428
+avg score of bot 21 in generation 31 213.227295
+avg score of bot 22 in generation 31 212.894836
+avg score of bot 23 in generation 31 339.625671
+avg score of bot 24 in generation 31 147.901718
+avg score of bot 25 in generation 31 246.857788
+avg score of bot 26 in generation 31 718.472656
+avg score of bot 27 in generation 31 306.948212
+avg score of bot 28 in generation 31 306.489960
+avg score of bot 29 in generation 31 1809.963867
+avg score of bot 30 in generation 31 369.840179
+avg score of bot 31 in generation 31 210.248978
+avg score of bot 32 in generation 31 235.937378
+avg score of bot 33 in generation 31 364.484650
+avg score of bot 34 in generation 31 268.538788
+avg score of bot 35 in generation 31 241.186951
+avg score of bot 36 in generation 31 234.162964
+avg score of bot 37 in generation 31 245.739136
+avg score of bot 38 in generation 31 246.742844
+avg score of bot 39 in generation 31 984.958801
+generation 31 avg score: 486.843567
+generation 31 best score: 2419.263428
+starting generation 32 ------------------------------- 
+avg score of bot 0 in generation 32 168.176575
+avg score of bot 1 in generation 32 224.137085
+avg score of bot 2 in generation 32 172.470230
+avg score of bot 3 in generation 32 378.497467
+avg score of bot 4 in generation 32 111.227776
+avg score of bot 5 in generation 32 281.932220
+avg score of bot 6 in generation 32 269.498413
+avg score of bot 7 in generation 32 89.451134
+avg score of bot 8 in generation 32 254.984146
+avg score of bot 9 in generation 32 514.578247
+avg score of bot 10 in generation 32 310.285492
+avg score of bot 11 in generation 32 246.948502
+avg score of bot 12 in generation 32 893.825928
+avg score of bot 13 in generation 32 2243.403076
+avg score of bot 14 in generation 32 216.950516
+avg score of bot 15 in generation 32 1123.089600
+avg score of bot 16 in generation 32 340.138458
+avg score of bot 17 in generation 32 950.913391
+avg score of bot 18 in generation 32 344.945068
+avg score of bot 19 in generation 32 171.828568
+avg score of bot 20 in generation 32 177.684525
+avg score of bot 21 in generation 32 178.722458
+avg score of bot 22 in generation 32 1894.539429
+avg score of bot 23 in generation 32 73.286621
+avg score of bot 24 in generation 32 543.108459
+avg score of bot 25 in generation 32 256.543701
+avg score of bot 26 in generation 32 172.371811
+avg score of bot 27 in generation 32 148.063919
+avg score of bot 28 in generation 32 1037.015259
+avg score of bot 29 in generation 32 125.523338
+avg score of bot 30 in generation 32 2473.450439
+avg score of bot 31 in generation 32 227.634476
+avg score of bot 32 in generation 32 851.383972
+avg score of bot 33 in generation 32 219.778564
+avg score of bot 34 in generation 32 721.608398
+avg score of bot 35 in generation 32 215.208801
+avg score of bot 36 in generation 32 842.398743
+avg score of bot 37 in generation 32 547.587952
+avg score of bot 38 in generation 32 320.562958
+avg score of bot 39 in generation 32 143.438675
+generation 32 avg score: 511.929932
+generation 32 best score: 2473.450439
+starting generation 33 ------------------------------- 
+avg score of bot 0 in generation 33 945.940125
+avg score of bot 1 in generation 33 273.385864
+avg score of bot 2 in generation 33 569.855225
+avg score of bot 3 in generation 33 272.114655
+avg score of bot 4 in generation 33 112.828186
+avg score of bot 5 in generation 33 2786.006592
+avg score of bot 6 in generation 33 213.751221
+avg score of bot 7 in generation 33 219.568863
+avg score of bot 8 in generation 33 1568.390259
+avg score of bot 9 in generation 33 80.713333
+avg score of bot 10 in generation 33 131.092972
+avg score of bot 11 in generation 33 279.597748
+avg score of bot 12 in generation 33 977.622314
+avg score of bot 13 in generation 33 1044.469360
+avg score of bot 14 in generation 33 124.268700
+avg score of bot 15 in generation 33 291.028473
+avg score of bot 16 in generation 33 140.141785
+avg score of bot 17 in generation 33 131.082611
+avg score of bot 18 in generation 33 251.808151
+avg score of bot 19 in generation 33 172.073730
+avg score of bot 20 in generation 33 357.439789
+avg score of bot 21 in generation 33 262.839508
+avg score of bot 22 in generation 33 1792.703125
+avg score of bot 23 in generation 33 163.609634
+avg score of bot 24 in generation 33 121.904594
+avg score of bot 25 in generation 33 196.353622
+avg score of bot 26 in generation 33 100.443413
+avg score of bot 27 in generation 33 1135.502441
+avg score of bot 28 in generation 33 205.655441
+avg score of bot 29 in generation 33 226.202164
+avg score of bot 30 in generation 33 129.506607
+avg score of bot 31 in generation 33 202.751877
+avg score of bot 32 in generation 33 117.567558
+avg score of bot 33 in generation 33 277.957764
+avg score of bot 34 in generation 33 2601.502197
+avg score of bot 35 in generation 33 280.919159
+avg score of bot 36 in generation 33 237.233810
+avg score of bot 37 in generation 33 176.356201
+avg score of bot 38 in generation 33 193.302551
+avg score of bot 39 in generation 33 202.133804
+generation 33 avg score: 489.190674
+generation 33 best score: 2786.006592
+starting generation 34 ------------------------------- 
+avg score of bot 0 in generation 34 291.273743
+avg score of bot 1 in generation 34 220.656555
+avg score of bot 2 in generation 34 137.603333
+avg score of bot 3 in generation 34 164.429581
+avg score of bot 4 in generation 34 91.861565
+avg score of bot 5 in generation 34 135.794907
+avg score of bot 6 in generation 34 300.165619
+avg score of bot 7 in generation 34 1923.028931
+avg score of bot 8 in generation 34 112.663391
+avg score of bot 9 in generation 34 567.587402
+avg score of bot 10 in generation 34 185.074341
+avg score of bot 11 in generation 34 208.662964
+avg score of bot 12 in generation 34 204.528976
+avg score of bot 13 in generation 34 207.805466
+avg score of bot 14 in generation 34 326.599335
+avg score of bot 15 in generation 34 263.690643
+avg score of bot 16 in generation 34 299.031830
+avg score of bot 17 in generation 34 2372.687012
+avg score of bot 18 in generation 34 1004.260498
+avg score of bot 19 in generation 34 166.121964
+avg score of bot 20 in generation 34 217.837784
+avg score of bot 21 in generation 34 303.380707
+avg score of bot 22 in generation 34 239.817215
+avg score of bot 23 in generation 34 309.935699
+avg score of bot 24 in generation 34 956.470215
+avg score of bot 25 in generation 34 453.196289
+avg score of bot 26 in generation 34 171.904831
+avg score of bot 27 in generation 34 216.612320
+avg score of bot 28 in generation 34 245.257217
+avg score of bot 29 in generation 34 2422.587646
+avg score of bot 30 in generation 34 284.056427
+avg score of bot 31 in generation 34 166.593018
+avg score of bot 32 in generation 34 222.616714
+avg score of bot 33 in generation 34 898.495117
+avg score of bot 34 in generation 34 1124.658691
+avg score of bot 35 in generation 34 794.650391
+avg score of bot 36 in generation 34 129.777771
+avg score of bot 37 in generation 34 91.854607
+avg score of bot 38 in generation 34 276.677216
+avg score of bot 39 in generation 34 206.073486
+generation 34 avg score: 472.899567
+generation 34 best score: 2422.587646
+starting generation 35 ------------------------------- 
+returned to menu during generation 35
+Retomando de save existente.
+-- STARTING NEW SIMULATION --
+Initial params:
+VERSION: Cada robô com meta própria
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 35 ------------------------------- 
+returned to menu during generation 35

@@ -14261,3 +14261,58 @@ avg score of bot 19 in generation 543 27506.156250
 generation 543 avg score: 15804.986328
 generation 543 best score: 35142.792969
 starting generation 544 ------------------------------- 
+Retomando de save existente.
+-- STARTING NEW SIMULATION --
+Initial params:
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 544 ------------------------------- 
+avg score of bot 0 in generation 544 11445.503906
+avg score of bot 1 in generation 544 13512.608398
+avg score of bot 2 in generation 544 8926.501953
+avg score of bot 3 in generation 544 6306.486816
+avg score of bot 4 in generation 544 9829.293945
+avg score of bot 5 in generation 544 5944.925293
+avg score of bot 6 in generation 544 9603.708984
+avg score of bot 7 in generation 544 8564.023438
+avg score of bot 8 in generation 544 3609.495117
+avg score of bot 9 in generation 544 13708.937500
+avg score of bot 10 in generation 544 7815.779785
+avg score of bot 11 in generation 544 11779.679688
+avg score of bot 12 in generation 544 11207.098633
+avg score of bot 13 in generation 544 8916.610352
+avg score of bot 14 in generation 544 8502.012695
+avg score of bot 15 in generation 544 15077.300781
+avg score of bot 16 in generation 544 8811.946289
+avg score of bot 17 in generation 544 8341.083008
+avg score of bot 18 in generation 544 4685.112793
+avg score of bot 19 in generation 544 13752.760742
+generation 544 avg score: 9517.043945
+generation 544 best score: 15077.300781
+starting generation 545 ------------------------------- 
+avg score of bot 0 in generation 545 19023.410156
+avg score of bot 1 in generation 545 7645.536621
+avg score of bot 2 in generation 545 158.533081
+avg score of bot 3 in generation 545 10460.089844
+avg score of bot 4 in generation 545 13080.382812
+avg score of bot 5 in generation 545 8253.098633
+avg score of bot 6 in generation 545 5607.831543
+avg score of bot 7 in generation 545 10006.389648
+avg score of bot 8 in generation 545 6210.951172
+avg score of bot 9 in generation 545 9742.701172
+avg score of bot 10 in generation 545 7914.991699
+avg score of bot 11 in generation 545 10795.109375
+avg score of bot 12 in generation 545 13946.825195
+avg score of bot 13 in generation 545 15739.968750
+avg score of bot 14 in generation 545 3245.443359
+avg score of bot 15 in generation 545 9800.952148
+avg score of bot 16 in generation 545 7106.554199
+avg score of bot 17 in generation 545 11546.208008
+avg score of bot 18 in generation 545 11919.958008
+avg score of bot 19 in generation 545 14796.257812
+generation 545 avg score: 9850.059570
+generation 545 best score: 19023.410156
+starting generation 546 ------------------------------- 

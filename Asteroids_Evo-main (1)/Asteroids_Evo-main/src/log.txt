@@ -9196,3 +9196,262 @@ avg score of bot 21 in generation 519 6712.865723
 generation 519 avg score: 15998.900391
 generation 519 best score: 26868.935547
 starting generation 520 ------------------------------- 
+Retomando de save existente.
+-- STARTING NEW SIMULATION --
+Initial params:
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 520 ------------------------------- 
+avg score of bot 0 in generation 520 10109.102539
+avg score of bot 1 in generation 520 11668.367188
+avg score of bot 2 in generation 520 11748.819336
+avg score of bot 3 in generation 520 11684.270508
+avg score of bot 4 in generation 520 13441.031250
+avg score of bot 5 in generation 520 8383.938477
+avg score of bot 6 in generation 520 8461.746094
+avg score of bot 7 in generation 520 6704.484375
+avg score of bot 8 in generation 520 15072.463867
+avg score of bot 9 in generation 520 8387.102539
+avg score of bot 10 in generation 520 11747.499023
+avg score of bot 11 in generation 520 11799.129883
+avg score of bot 12 in generation 520 9835.057617
+avg score of bot 13 in generation 520 6687.596191
+avg score of bot 14 in generation 520 18418.050781
+avg score of bot 15 in generation 520 11780.191406
+avg score of bot 16 in generation 520 6794.920410
+avg score of bot 17 in generation 520 18363.730469
+avg score of bot 18 in generation 520 13436.976562
+avg score of bot 19 in generation 520 6891.115234
+avg score of bot 20 in generation 520 8487.194336
+avg score of bot 21 in generation 520 10174.460938
+generation 520 avg score: 10912.600586
+generation 520 best score: 18418.050781
+starting generation 521 ------------------------------- 
+avg score of bot 0 in generation 521 8412.317383
+avg score of bot 1 in generation 521 10134.103516
+avg score of bot 2 in generation 521 8455.172852
+avg score of bot 3 in generation 521 18470.408203
+avg score of bot 4 in generation 521 10189.483398
+avg score of bot 5 in generation 521 16744.787109
+avg score of bot 6 in generation 521 23397.443359
+avg score of bot 7 in generation 521 11840.127930
+avg score of bot 8 in generation 521 18480.900391
+avg score of bot 9 in generation 521 9970.452148
+avg score of bot 10 in generation 521 15053.666992
+avg score of bot 11 in generation 521 13429.680664
+avg score of bot 12 in generation 521 21686.779297
+avg score of bot 13 in generation 521 15076.382812
+avg score of bot 14 in generation 521 3483.098633
+avg score of bot 15 in generation 521 6762.572754
+avg score of bot 16 in generation 521 11792.002930
+avg score of bot 17 in generation 521 8203.340820
+avg score of bot 18 in generation 521 16702.505859
+avg score of bot 19 in generation 521 11778.100586
+avg score of bot 20 in generation 521 26717.193359
+avg score of bot 21 in generation 521 10083.396484
+generation 521 avg score: 13493.815430
+generation 521 best score: 26717.193359
+starting generation 522 ------------------------------- 
+avg score of bot 0 in generation 522 18352.814453
+avg score of bot 1 in generation 522 32.473331
+avg score of bot 2 in generation 522 6695.488281
+avg score of bot 3 in generation 522 10092.704102
+avg score of bot 4 in generation 522 10063.342773
+avg score of bot 5 in generation 522 11784.995117
+avg score of bot 6 in generation 522 18427.300781
+avg score of bot 7 in generation 522 8366.901367
+avg score of bot 8 in generation 522 13358.456055
+avg score of bot 9 in generation 522 16710.107422
+avg score of bot 10 in generation 522 20004.515625
+avg score of bot 11 in generation 522 11685.643555
+avg score of bot 12 in generation 522 15050.149414
+avg score of bot 13 in generation 522 21692.267578
+avg score of bot 14 in generation 522 20050.492188
+avg score of bot 15 in generation 522 8415.027344
+avg score of bot 16 in generation 522 0.000000
+avg score of bot 17 in generation 522 9999.179688
+avg score of bot 18 in generation 522 8383.684570
+avg score of bot 19 in generation 522 16743.089844
+avg score of bot 20 in generation 522 10176.579102
+avg score of bot 21 in generation 522 15019.859375
+generation 522 avg score: 12322.958984
+generation 522 best score: 21692.267578
+starting generation 523 ------------------------------- 
+avg score of bot 0 in generation 523 20077.365234
+avg score of bot 1 in generation 523 15064.620117
+avg score of bot 2 in generation 523 8357.541992
+avg score of bot 3 in generation 523 11683.953125
+avg score of bot 4 in generation 523 13347.786133
+avg score of bot 5 in generation 523 14987.401367
+avg score of bot 6 in generation 523 13512.609375
+avg score of bot 7 in generation 523 4997.020020
+avg score of bot 8 in generation 523 9998.120117
+avg score of bot 9 in generation 523 15078.605469
+avg score of bot 10 in generation 523 8392.398438
+avg score of bot 11 in generation 523 13358.687500
+avg score of bot 12 in generation 523 18307.351562
+avg score of bot 13 in generation 523 13427.339844
+avg score of bot 14 in generation 523 8318.096680
+avg score of bot 15 in generation 523 21674.541016
+avg score of bot 16 in generation 523 9996.465820
+avg score of bot 17 in generation 523 11724.817383
+avg score of bot 18 in generation 523 6674.520020
+avg score of bot 19 in generation 523 10008.954102
+avg score of bot 20 in generation 523 18339.958984
+avg score of bot 21 in generation 523 16665.283203
+generation 523 avg score: 12908.791016
+generation 523 best score: 21674.541016
+starting generation 524 ------------------------------- 
+avg score of bot 0 in generation 524 18343.865234
+avg score of bot 1 in generation 524 13328.137695
+avg score of bot 2 in generation 524 11674.355469
+avg score of bot 3 in generation 524 13329.815430
+avg score of bot 4 in generation 524 10025.828125
+avg score of bot 5 in generation 524 11683.851562
+avg score of bot 6 in generation 524 10005.504883
+avg score of bot 7 in generation 524 10007.290039
+avg score of bot 8 in generation 524 16710.281250
+avg score of bot 9 in generation 524 11604.039062
+avg score of bot 10 in generation 524 11672.125000
+avg score of bot 11 in generation 524 13372.122070
+avg score of bot 12 in generation 524 6683.164551
+avg score of bot 13 in generation 524 10044.075195
+avg score of bot 14 in generation 524 10126.197266
+avg score of bot 15 in generation 524 15011.797852
+avg score of bot 16 in generation 524 4952.263672
+avg score of bot 17 in generation 524 8580.966797
+avg score of bot 18 in generation 524 15021.247070
+avg score of bot 19 in generation 524 10004.422852
+avg score of bot 20 in generation 524 8345.389648
+avg score of bot 21 in generation 524 20024.128906
+generation 524 avg score: 11843.222656
+generation 524 best score: 20024.128906
+starting generation 525 ------------------------------- 
+avg score of bot 0 in generation 525 6677.382324
+avg score of bot 1 in generation 525 10045.537109
+avg score of bot 2 in generation 525 11755.438477
+avg score of bot 3 in generation 525 20035.996094
+avg score of bot 4 in generation 525 9983.422852
+avg score of bot 5 in generation 525 15021.921875
+avg score of bot 6 in generation 525 8352.757812
+avg score of bot 7 in generation 525 11710.364258
+avg score of bot 8 in generation 525 10024.920898
+avg score of bot 9 in generation 525 11662.163086
+avg score of bot 10 in generation 525 13336.418945
+avg score of bot 11 in generation 525 10008.001953
+avg score of bot 12 in generation 525 11663.656250
+avg score of bot 13 in generation 525 5023.996094
+avg score of bot 14 in generation 525 6622.353027
+avg score of bot 15 in generation 525 16664.814453
+avg score of bot 16 in generation 525 11738.512695
+avg score of bot 17 in generation 525 10028.735352
+avg score of bot 18 in generation 525 8332.305664
+avg score of bot 19 in generation 525 11686.781250
+avg score of bot 20 in generation 525 21690.439453
+avg score of bot 21 in generation 525 3333.712646
+generation 525 avg score: 11154.530273
+generation 525 best score: 21690.439453
+starting generation 526 ------------------------------- 
+avg score of bot 0 in generation 526 13346.207031
+avg score of bot 1 in generation 526 21661.712891
+avg score of bot 2 in generation 526 16667.267578
+avg score of bot 3 in generation 526 6727.807129
+avg score of bot 4 in generation 526 9997.916992
+avg score of bot 5 in generation 526 13325.997070
+avg score of bot 6 in generation 526 11677.752930
+avg score of bot 7 in generation 526 16676.615234
+avg score of bot 8 in generation 526 25002.320312
+avg score of bot 9 in generation 526 8336.266602
+avg score of bot 10 in generation 526 9998.468750
+avg score of bot 11 in generation 526 21699.855469
+avg score of bot 12 in generation 526 10053.897461
+avg score of bot 13 in generation 526 9999.540039
+avg score of bot 14 in generation 526 10004.928711
+avg score of bot 15 in generation 526 8417.836914
+avg score of bot 16 in generation 526 11687.309570
+avg score of bot 17 in generation 526 8351.899414
+avg score of bot 18 in generation 526 9998.750977
+avg score of bot 19 in generation 526 13347.868164
+avg score of bot 20 in generation 526 5021.362793
+avg score of bot 21 in generation 526 16659.611328
+generation 526 avg score: 12666.418945
+generation 526 best score: 25002.320312
+starting generation 527 ------------------------------- 
+avg score of bot 0 in generation 527 10002.325195
+avg score of bot 1 in generation 527 4998.671387
+avg score of bot 2 in generation 527 6582.830566
+avg score of bot 3 in generation 527 13341.430664
+avg score of bot 4 in generation 527 13319.385742
+avg score of bot 5 in generation 527 6661.265137
+avg score of bot 6 in generation 527 9980.581055
+avg score of bot 7 in generation 527 8320.722656
+avg score of bot 8 in generation 527 13370.612305
+avg score of bot 9 in generation 527 11723.348633
+avg score of bot 10 in generation 527 18346.730469
+avg score of bot 11 in generation 527 16651.072266
+avg score of bot 12 in generation 527 8345.913086
+avg score of bot 13 in generation 527 13322.166992
+avg score of bot 14 in generation 527 11673.772461
+avg score of bot 15 in generation 527 11679.416992
+avg score of bot 16 in generation 527 13352.941406
+avg score of bot 17 in generation 527 15017.914062
+avg score of bot 18 in generation 527 8344.176758
+avg score of bot 19 in generation 527 13333.442383
+avg score of bot 20 in generation 527 11678.230469
+avg score of bot 21 in generation 527 23342.580078
+generation 527 avg score: 11972.250977
+generation 527 best score: 23342.580078
+starting generation 528 ------------------------------- 
+avg score of bot 0 in generation 528 21680.117188
+avg score of bot 1 in generation 528 11672.722656
+avg score of bot 2 in generation 528 11703.008789
+avg score of bot 3 in generation 528 11673.281250
+avg score of bot 4 in generation 528 8333.937500
+avg score of bot 5 in generation 528 15012.604492
+avg score of bot 6 in generation 528 99.513710
+avg score of bot 7 in generation 528 8220.621094
+avg score of bot 8 in generation 528 16680.884766
+avg score of bot 9 in generation 528 18355.302734
+avg score of bot 10 in generation 528 18351.658203
+avg score of bot 11 in generation 528 11666.632812
+avg score of bot 12 in generation 528 6692.199219
+avg score of bot 13 in generation 528 16673.482422
+avg score of bot 14 in generation 528 15017.511719
+avg score of bot 15 in generation 528 14986.535156
+avg score of bot 16 in generation 528 4993.771973
+avg score of bot 17 in generation 528 9996.785156
+avg score of bot 18 in generation 528 15012.006836
+avg score of bot 19 in generation 528 9994.488281
+avg score of bot 20 in generation 528 15008.434570
+avg score of bot 21 in generation 528 3338.980469
+generation 528 avg score: 12052.930664
+generation 528 best score: 21680.117188
+starting generation 529 ------------------------------- 
+avg score of bot 0 in generation 529 16672.916016
+avg score of bot 1 in generation 529 9999.438477
+avg score of bot 2 in generation 529 16690.185547
+avg score of bot 3 in generation 529 8338.198242
+avg score of bot 4 in generation 529 8344.088867
+avg score of bot 5 in generation 529 1915.073120
+avg score of bot 6 in generation 529 14994.120117
+avg score of bot 7 in generation 529 11650.180664
+avg score of bot 8 in generation 529 11676.054688
+avg score of bot 9 in generation 529 15011.479492
+avg score of bot 10 in generation 529 15001.247070
+avg score of bot 11 in generation 529 19982.126953
+avg score of bot 12 in generation 529 10088.973633
+avg score of bot 13 in generation 529 13324.770508
+avg score of bot 14 in generation 529 10023.327148
+avg score of bot 15 in generation 529 11648.752930
+avg score of bot 16 in generation 529 18340.423828
+avg score of bot 17 in generation 529 11675.151367
+avg score of bot 18 in generation 529 14834.695312
+avg score of bot 19 in generation 529 14999.288086
+avg score of bot 20 in generation 529 14999.769531
+avg score of bot 21 in generation 529 16698.619141
+generation 529 avg score: 13041.312500
+generation 529 best score: 19982.126953
+starting generation 530 ------------------------------- 

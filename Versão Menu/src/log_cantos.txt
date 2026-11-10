@@ -1,0 +1,140 @@
+Nenhum save encontrado. Iniciando do zero.
+-- STARTING NEW SIMULATION --
+Initial params:
+VERSION: Objetivos fixos nos cantos
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 1 ------------------------------- 
+avg score of bot 0 in generation 1 29.212122
+avg score of bot 1 in generation 1 7.984856
+avg score of bot 2 in generation 1 64.206650
+avg score of bot 3 in generation 1 44.361553
+avg score of bot 4 in generation 1 153.808273
+avg score of bot 5 in generation 1 48.789230
+avg score of bot 6 in generation 1 48.329830
+avg score of bot 7 in generation 1 47.796062
+avg score of bot 8 in generation 1 46.757648
+avg score of bot 9 in generation 1 26.647627
+generation 1 avg score: 51.789387
+generation 1 best score: 153.808273
+starting generation 2 ------------------------------- 
+avg score of bot 0 in generation 2 0.000000
+avg score of bot 1 in generation 2 249.293274
+avg score of bot 2 in generation 2 206.202957
+avg score of bot 3 in generation 2 0.000000
+avg score of bot 4 in generation 2 2.020672
+avg score of bot 5 in generation 2 108.319580
+avg score of bot 6 in generation 2 5.458431
+avg score of bot 7 in generation 2 0.722914
+avg score of bot 8 in generation 2 75.031868
+avg score of bot 9 in generation 2 0.538221
+generation 2 avg score: 64.758781
+generation 2 best score: 249.293274
+starting generation 3 ------------------------------- 
+avg score of bot 0 in generation 3 232.437805
+avg score of bot 1 in generation 3 7.634470
+avg score of bot 2 in generation 3 0.000000
+avg score of bot 3 in generation 3 0.000000
+avg score of bot 4 in generation 3 116.926247
+avg score of bot 5 in generation 3 8.276149
+avg score of bot 6 in generation 3 6719.050293
+avg score of bot 7 in generation 3 128.948578
+avg score of bot 8 in generation 3 6763.541504
+avg score of bot 9 in generation 3 113.343498
+generation 3 avg score: 1409.015869
+generation 3 best score: 6763.541504
+starting generation 4 ------------------------------- 
+avg score of bot 0 in generation 4 1767.487305
+avg score of bot 1 in generation 4 215.914139
+avg score of bot 2 in generation 4 61.387421
+avg score of bot 3 in generation 4 55.798969
+avg score of bot 4 in generation 4 6739.767090
+avg score of bot 5 in generation 4 0.000000
+avg score of bot 6 in generation 4 136.743515
+avg score of bot 7 in generation 4 0.000000
+avg score of bot 8 in generation 4 74.856506
+avg score of bot 9 in generation 4 94.339539
+generation 4 avg score: 914.629517
+generation 4 best score: 6739.767090
+starting generation 5 ------------------------------- 
+avg score of bot 0 in generation 5 5051.761719
+avg score of bot 1 in generation 5 134.887222
+avg score of bot 2 in generation 5 12.163776
+avg score of bot 3 in generation 5 5316.205566
+avg score of bot 4 in generation 5 3450.880127
+avg score of bot 5 in generation 5 68.154884
+avg score of bot 6 in generation 5 1681.832031
+avg score of bot 7 in generation 5 77.186470
+avg score of bot 8 in generation 5 76.422600
+avg score of bot 9 in generation 5 3348.323486
+generation 5 avg score: 1921.781860
+generation 5 best score: 5316.205566
+starting generation 6 ------------------------------- 
+avg score of bot 0 in generation 6 198.160355
+avg score of bot 1 in generation 6 1813.649414
+avg score of bot 2 in generation 6 3500.108643
+avg score of bot 3 in generation 6 1747.120117
+avg score of bot 4 in generation 6 202.398926
+avg score of bot 5 in generation 6 6816.878906
+avg score of bot 6 in generation 6 5024.534668
+avg score of bot 7 in generation 6 293.809418
+avg score of bot 8 in generation 6 196.279587
+avg score of bot 9 in generation 6 204.330826
+generation 6 avg score: 1999.726929
+generation 6 best score: 6816.878906
+starting generation 7 ------------------------------- 
+avg score of bot 0 in generation 7 1833.004272
+avg score of bot 1 in generation 7 199.044983
+avg score of bot 2 in generation 7 93.000847
+avg score of bot 3 in generation 7 116.289955
+avg score of bot 4 in generation 7 1777.527954
+avg score of bot 5 in generation 7 98.171700
+avg score of bot 6 in generation 7 1705.804199
+avg score of bot 7 in generation 7 5031.043457
+avg score of bot 8 in generation 7 5052.521973
+avg score of bot 9 in generation 7 5064.928711
+generation 7 avg score: 2097.134033
+generation 7 best score: 5064.928711
+starting generation 8 ------------------------------- 
+avg score of bot 0 in generation 8 6724.296875
+avg score of bot 1 in generation 8 6711.582520
+avg score of bot 2 in generation 8 5017.059570
+avg score of bot 3 in generation 8 5040.308594
+avg score of bot 4 in generation 8 5055.685547
+avg score of bot 5 in generation 8 169.759979
+avg score of bot 6 in generation 8 8362.206055
+avg score of bot 7 in generation 8 45.709671
+avg score of bot 8 in generation 8 76.546700
+avg score of bot 9 in generation 8 164.574585
+generation 8 avg score: 3736.772949
+generation 8 best score: 8362.206055
+starting generation 9 ------------------------------- 
+avg score of bot 0 in generation 9 3371.524170
+avg score of bot 1 in generation 9 0.000000
+avg score of bot 2 in generation 9 106.169899
+avg score of bot 3 in generation 9 6679.685547
+avg score of bot 4 in generation 9 3353.702148
+avg score of bot 5 in generation 9 3388.048096
+avg score of bot 6 in generation 9 5055.854004
+avg score of bot 7 in generation 9 1863.074219
+avg score of bot 8 in generation 9 3467.489990
+avg score of bot 9 in generation 9 204.684647
+generation 9 avg score: 2749.023438
+generation 9 best score: 6679.685547
+starting generation 10 ------------------------------- 
+avg score of bot 0 in generation 10 5022.283203
+avg score of bot 1 in generation 10 5040.684082
+avg score of bot 2 in generation 10 1829.206543
+avg score of bot 3 in generation 10 1921.867310
+avg score of bot 4 in generation 10 8355.148438
+avg score of bot 5 in generation 10 1744.753906
+avg score of bot 6 in generation 10 3359.575439
+avg score of bot 7 in generation 10 193.874084
+avg score of bot 8 in generation 10 1674.920044
+avg score of bot 9 in generation 10 3519.619873
+generation 10 avg score: 3266.193359
+generation 10 best score: 8355.148438
+starting generation 11 ------------------------------- 
