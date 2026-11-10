@@ -46,7 +46,7 @@ int main() {
     bool has_save = Persistence::loadGenomes(SAVE_FILE, generation, bot_count, asteroid_count, loaded_genomes);
 
     SetRandomSeed((time(NULL)));
-    InitWindow(worldWidth, worldHeight, "RonaldoBots");
+    InitWindow(worldWidth, worldHeight, "SparkRobots");
     SetTargetFPS(60);
 
     bool draw_graphics = true;

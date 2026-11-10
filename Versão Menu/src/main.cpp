@@ -105,7 +105,7 @@ SaveInfo read_save_info(const string& path){
 int main() {
     // init ------------------------------------------------------------------------------------
     SetRandomSeed((time(NULL)));
-    InitWindow(worldWidth, worldHeight, "RonaldoBots");
+    InitWindow(worldWidth, worldHeight, "SparkRobots");
     SetTargetFPS(60);
 
     // simulation state (reset every time a version is started from the menu)
@@ -219,7 +219,7 @@ int main() {
             BeginDrawing();
             ClearBackground(BLACK);
 
-            const char* title = "RonaldoBots";
+            const char* title = "SparkRobots";
             DrawText(title, (worldWidth - MeasureText(title, 60))/2, 90, 60, GREEN);
             const char* subtitle = "Escolha qual versão do código rodar";
             DrawText(subtitle, (worldWidth - MeasureText(subtitle, 25))/2, 170, 25, LIME);

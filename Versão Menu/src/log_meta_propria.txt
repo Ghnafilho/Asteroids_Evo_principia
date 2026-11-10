@@ -1444,3 +1444,100 @@ WORLD HEIGHT: 1000
 GENERATION DURATION: 1000
 starting generation 35 ------------------------------- 
 returned to menu during generation 35
+Retomando de save existente.
+-- STARTING NEW SIMULATION --
+Initial params:
+VERSION: Cada robô com meta própria
+WORLD_COUNT: 8
+GENOME_SIZE: 130
+WORLD WIDTH: 1600
+WORLD HEIGHT: 1000
+GENERATION DURATION: 1000
+starting generation 35 ------------------------------- 
+avg score of bot 0 in generation 35 237.399582
+avg score of bot 1 in generation 35 211.064102
+avg score of bot 2 in generation 35 232.565796
+avg score of bot 3 in generation 35 56.075603
+avg score of bot 4 in generation 35 968.462097
+avg score of bot 5 in generation 35 764.406189
+avg score of bot 6 in generation 35 266.860535
+avg score of bot 7 in generation 35 715.420959
+avg score of bot 8 in generation 35 209.303223
+avg score of bot 9 in generation 35 756.031738
+avg score of bot 10 in generation 35 241.560425
+avg score of bot 11 in generation 35 309.769073
+avg score of bot 12 in generation 35 102.967094
+avg score of bot 13 in generation 35 205.257690
+avg score of bot 14 in generation 35 106.764839
+avg score of bot 15 in generation 35 255.227371
+avg score of bot 16 in generation 35 976.642090
+avg score of bot 17 in generation 35 168.775558
+avg score of bot 18 in generation 35 1616.834595
+avg score of bot 19 in generation 35 229.329224
+avg score of bot 20 in generation 35 140.895370
+avg score of bot 21 in generation 35 176.172836
+avg score of bot 22 in generation 35 235.758835
+avg score of bot 23 in generation 35 111.330681
+avg score of bot 24 in generation 35 2495.984375
+avg score of bot 25 in generation 35 71.065041
+avg score of bot 26 in generation 35 224.570389
+avg score of bot 27 in generation 35 996.446594
+avg score of bot 28 in generation 35 267.115387
+avg score of bot 29 in generation 35 938.042297
+avg score of bot 30 in generation 35 52.688625
+avg score of bot 31 in generation 35 251.674072
+avg score of bot 32 in generation 35 236.602463
+avg score of bot 33 in generation 35 171.053513
+avg score of bot 34 in generation 35 174.860352
+avg score of bot 35 in generation 35 94.627258
+avg score of bot 36 in generation 35 230.961624
+avg score of bot 37 in generation 35 103.664818
+avg score of bot 38 in generation 35 369.243988
+avg score of bot 39 in generation 35 342.222809
+generation 35 avg score: 407.892487
+generation 35 best score: 2495.984375
+starting generation 36 ------------------------------- 
+avg score of bot 0 in generation 36 379.137054
+avg score of bot 1 in generation 36 150.793121
+avg score of bot 2 in generation 36 211.002243
+avg score of bot 3 in generation 36 167.333786
+avg score of bot 4 in generation 36 97.425049
+avg score of bot 5 in generation 36 931.069275
+avg score of bot 6 in generation 36 272.345886
+avg score of bot 7 in generation 36 1676.651733
+avg score of bot 8 in generation 36 327.922943
+avg score of bot 9 in generation 36 405.979340
+avg score of bot 10 in generation 36 346.717041
+avg score of bot 11 in generation 36 204.452759
+avg score of bot 12 in generation 36 14.384822
+avg score of bot 13 in generation 36 535.514221
+avg score of bot 14 in generation 36 97.146324
+avg score of bot 15 in generation 36 1030.494507
+avg score of bot 16 in generation 36 1056.196655
+avg score of bot 17 in generation 36 175.676132
+avg score of bot 18 in generation 36 1064.009766
+avg score of bot 19 in generation 36 106.318520
+avg score of bot 20 in generation 36 159.685806
+avg score of bot 21 in generation 36 116.109619
+avg score of bot 22 in generation 36 1962.845703
+avg score of bot 23 in generation 36 1071.062622
+avg score of bot 24 in generation 36 312.944916
+avg score of bot 25 in generation 36 200.795837
+avg score of bot 26 in generation 36 276.837311
+avg score of bot 27 in generation 36 112.049095
+avg score of bot 28 in generation 36 267.477478
+avg score of bot 29 in generation 36 262.110321
+avg score of bot 30 in generation 36 234.749390
+avg score of bot 31 in generation 36 984.069824
+avg score of bot 32 in generation 36 296.872681
+avg score of bot 33 in generation 36 324.930420
+avg score of bot 34 in generation 36 507.030182
+avg score of bot 35 in generation 36 178.710526
+avg score of bot 36 in generation 36 150.639572
+avg score of bot 37 in generation 36 1821.233032
+avg score of bot 38 in generation 36 243.924866
+avg score of bot 39 in generation 36 179.217087
+generation 36 avg score: 472.846680
+generation 36 best score: 1962.845703
+starting generation 37 ------------------------------- 
+returned to menu during generation 37
