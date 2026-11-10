@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <thread>
 #include <format>
+#include <climits>
 #include "raylib.h"
 #define RAYGUI_IMPLEMENTATION
 #include "raygui.h"
@@ -120,6 +121,7 @@ int main() {
     bool draw_debug = true;
     bool capped_fps = true;
     bool paused = false;
+    bool show_features = true;
     int next_bot_count = bot_count;
     int next_asteroid_count = asteroid_count;
     Fitness_graph avg_graph = Fitness_graph(10,130,300,100);
@@ -132,6 +134,7 @@ int main() {
     int start_option = 0;           // 0 = continue from save, 1 = start from scratch
     const ModeInfo* mode_info = &MODES[0];
     SaveInfo saves[MODE_COUNT];
+    unique_ptr<World> sandbox;      // interactive environment, null while it isn't running
     for(int i = 0; i < MODE_COUNT; i++) saves[i] = read_save_info(MODES[i].save_file);
 
     //------------------------------------------------------------------------------------------
@@ -209,12 +212,65 @@ int main() {
 
     //------------------------------------------------------------------------------------------
 
+    // controls shared by the training and interactive screens
+    auto draw_controls = [&](){
+        if(show_features){
+            float slider_asteroid_count = next_asteroid_count;
+            GuiSliderBar({710, 20, 200, 20 }, "Asteroid Count", TextFormat("%.0f", slider_asteroid_count), &slider_asteroid_count, 1, 20);
+            next_asteroid_count = int(slider_asteroid_count);
+
+            if (GuiButton({940, 20, 120, 30 }, "Toggle Graphics")) draw_graphics = !draw_graphics;
+            if (GuiButton({1080, 20, 100, 30 }, "Toggle Debug")) draw_debug = !draw_debug;
+            if (GuiButton({1190, 20, 100, 30 }, "Toggle Player")) player_active = !player_active;
+            if (GuiButton({1300, 20, 120, 30 }, "Toggle FPS cap")){
+                SetTargetFPS(capped_fps ? 0 : 60);
+                capped_fps = !capped_fps;
+            }
+            if (GuiButton({1425, 20, 50, 30 }, "Pause")) paused = !paused;
+        }
+        if (GuiButton({1480, 20, 60, 30 }, "Features")) show_features = !show_features;
+        if (GuiButton({1545, 20, 50, 30 }, "Menu")) back_to_menu = true;
+    };
+
     // main loop -------------------------------------------------------------------------------
     while (!WindowShouldClose()) {
 
+        // Interactive environment -------------------------------------------------------------
+        if(sandbox){
+            if(!paused) sandbox->update();
+            if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && GetMouseY() > 60) sandbox->add_food(GetMousePosition());   // y <= 60 is the GUI bar
+
+            BeginDrawing();
+            ClearBackground(BLACK);
+            if(draw_graphics){
+                sandbox->Draw();
+                if(draw_debug) sandbox->DrawExtra();
+            }
+
+            DrawFPS(worldWidth - 100, 60);
+            DrawText(TextFormat("MODELO: %s", mode_info->name), 10, 20, 15, YELLOW);
+            DrawText("Clique na tela para adicionar comida", 10, 45, 15, GREEN);
+
+            draw_controls();
+            sandbox->set_asteroid_count(next_asteroid_count);
+            sandbox->set_player(player_active);
+            EndDrawing();
+
+            if(back_to_menu){
+                back_to_menu = false;
+                sandbox.reset();
+            }
+            continue;
+        }
+
         // Menu --------------------------------------------------------------------------------
         if(in_menu){
+            if(!capped_fps){
+                SetTargetFPS(60);
+                capped_fps = true;
+            }
             int chosen = -1;
+            int sandbox_choice = -1;
 
             BeginDrawing();
             ClearBackground(BLACK);
@@ -243,7 +299,9 @@ int main() {
                 DrawText(TextFormat("Arquivo: %s", MODES[i].save_file.c_str()), x + 25, card_y + 358, 15, GRAY);
 
                 GuiSetStyle(DEFAULT, TEXT_SIZE, 20);
-                if(GuiButton({(float)x + 25, (float)card_y + card_h - 75, (float)card_w - 50, 50}, "Rodar esta versão")) chosen = i;
+                const float button_w = (card_w - 65)/2.0f;
+                if(GuiButton({(float)x + 25, (float)card_y + card_h - 75, button_w, 50}, "Rodar esta versão")) chosen = i;
+                if(saves[i].exists && GuiButton({(float)x + 40 + button_w, (float)card_y + card_h - 75, button_w, 50}, "Ambiente interativo")) sandbox_choice = i;
                 GuiSetStyle(DEFAULT, TEXT_SIZE, 10);
             }
 
@@ -262,6 +320,19 @@ int main() {
             EndDrawing();
 
             if(chosen >= 0) start_simulation(MODES[chosen], start_option == 1);
+            if(sandbox_choice >= 0){
+                const ModeInfo& info = MODES[sandbox_choice];
+                int saved_generation, saved_bot_count;
+                Genome genomes;
+                if(Persistence::loadGenomes(info.save_file, saved_generation, saved_bot_count, next_asteroid_count, genomes) && !genomes.empty()){
+                    mode_info = &info;
+                    current_mode = info.mode;
+                    // genomes[0] is the best bot: repopulation and both genocides put it first
+                    paused = false;
+                    sandbox = make_unique<World>(1, next_asteroid_count, worldWidth, worldHeight, CELL_SIZE, textures, INT_MAX, Genome{genomes[0]}, false);
+                    sandbox->start_food_mode();
+                }
+            }
             continue;
         }
 
@@ -383,33 +454,13 @@ int main() {
             DrawText(TextFormat("ALIVE: %d", universe[0]->getAlive()), 320, 50, 10, GREEN);
             DrawText(TextFormat("VERSÃO: %s", mode_info->name), 10, 110, 15, YELLOW);
 
-            GuiSliderBar({120, 20, 200, 20 }, "Generation Duration", TextFormat("%.0f", gen_duration), &gen_duration, 250, 3000);
-            float slider_bot_count = next_bot_count;
-
-            GuiSliderBar({410, 20, 200, 20 }, "Bot Count", TextFormat("%.0f", slider_bot_count), &slider_bot_count, 2, 40);
-            next_bot_count = int(slider_bot_count);
-            float slider_asteroid_count = next_asteroid_count;
-
-            GuiSliderBar({710, 20, 200, 20 }, "Asteroid Count", TextFormat("%.0f", slider_asteroid_count), &slider_asteroid_count, 1, 20);
-            next_asteroid_count = int(slider_asteroid_count);
-
-            if (GuiButton({940, 20, 120, 30 }, "Toggle Graphics")) draw_graphics = !draw_graphics;
-            if (GuiButton({1080, 20, 100, 30 }, "Toggle Debug")) draw_debug = !draw_debug;
-            if (GuiButton({1190, 20, 100, 30 }, "Toggle Player")) player_active = !player_active;
-            if (GuiButton({1300, 20, 120, 30 }, "Toggle FPS cap")){
-                if(capped_fps){
-                    SetTargetFPS(0);
-                }else{
-                    SetTargetFPS(60);
-                }
-                capped_fps = !capped_fps;
+            if(show_features){
+                GuiSliderBar({120, 20, 200, 20 }, "Generation Duration", TextFormat("%.0f", gen_duration), &gen_duration, 250, 3000);
+                float slider_bot_count = next_bot_count;
+                GuiSliderBar({410, 20, 200, 20 }, "Bot Count", TextFormat("%.0f", slider_bot_count), &slider_bot_count, 2, 40);
+                next_bot_count = int(slider_bot_count);
             }
-            if (GuiButton({1450, 20, 50, 30 }, "Pause")){
-                paused = !paused;
-            }
-            if (GuiButton({1510, 20, 70, 30 }, "Menu")){
-                back_to_menu = true;
-            }
+            draw_controls();
             //----------------------------------------------------------------------------------
         }
         EndDrawing();
@@ -420,10 +471,6 @@ int main() {
             universe.clear();
             logfile << format("returned to menu during generation {:d}\n", generation);
             logfile.close();
-            if(!capped_fps){
-                SetTargetFPS(60);
-                capped_fps = true;
-            }
             for(int i = 0; i < MODE_COUNT; i++) saves[i] = read_save_info(MODES[i].save_file);
             start_option = 0;   // never keep "start from scratch" selected, so a save isn't overwritten by accident
             in_menu = true;

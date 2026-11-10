@@ -47,6 +47,7 @@ Ship::Ship(float x, float y, int window_w, int window_h, Texture2D& ship_tex, un
     current_goal           = {0, 0};
     killable               = false;
     is_best                = false;
+    food_mode              = false;
     has_goal = false;
     current_goal_idx = 0;
     goals.clear();
@@ -102,6 +103,26 @@ void Ship::set_goals(std::vector<Vector2> new_goals){
     current_goal_idx = 0;
 }
 
+void Ship::start_food_mode(){
+    food_mode = true;
+    has_goal = false;
+    goals.clear();
+    current_goal_idx = 0;
+}
+
+void Ship::add_food(Vector2 food){
+    goals.push_back(food);
+    // a fila estava vazia: a nova comida ja e o objetivo atual
+    if(current_goal_idx == (int)goals.size() - 1){
+        current_goal = food;
+        has_goal = true;
+    }
+}
+
+void Ship::draw_food(){
+    for(int i = current_goal_idx; i < (int)goals.size(); i++) DrawCircleV(goals[i], 12, GOLD);
+}
+
 // sorteia um objetivo na borda de um raio ao redor da nave (GameMode::OwnGoal)
 void Ship::generate_goal(){
     const float margin = 50.0f;
@@ -149,7 +170,7 @@ void Ship::update()
     if(!active) return;
     Entity::update();
     
-    if(coll_count > 4 && killable == false){
+    if(coll_count > 4 && killable == false && !food_mode){
         killable = true;
     }
 
@@ -175,7 +196,12 @@ void Ship::update()
         float current_dist = Vector2Distance(position, current_goal);
         if(current_dist <= goal_reach_radius){
             desired_movement_accumulator2 += goal_reward * alignment_coefficient;
-            generate_goal();
+            if(food_mode){
+                current_goal_idx++;
+                has_goal = current_goal_idx < (int)goals.size();
+                if(has_goal) current_goal = goals[current_goal_idx];
+            }
+            else generate_goal();
         }
     }
     score = desired_movement_accumulator*(1-0.15*coll_count) + desired_movement_accumulator2;
@@ -397,7 +423,7 @@ void Ship::DrawExtra(){
         // linha da nave até o objetivo atual (visualização dos sensores de direção)
         DrawLineV(position, goals[current_goal_idx], Color{0, 200, 255, 120});
         DrawCircleV(goals[current_goal_idx], 8, Color{0, 200, 255, 120});
-    } else {
+    } else if(!food_mode) {
         DrawText(TextFormat("NO GOAL | has_goal=%d size=%d idx=%d", 
                 (int)has_goal, (int)goals.size(), current_goal_idx),
                 position.x + 20, position.y + 60, 10, RED);

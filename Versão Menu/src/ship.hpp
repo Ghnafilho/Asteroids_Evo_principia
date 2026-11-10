@@ -25,6 +25,7 @@ public:
     float score;                   
     float max_angular_velocity;     // angular speed cap
     bool is_best;
+    bool food_mode;                 // ambiente interativo: objetivos sao as comidas clicadas
 
     // objetivo proprio (GameMode::OwnGoal)
     Vector2 current_goal;
@@ -59,6 +60,9 @@ public:
     void generate_goal();
     Vector2 get_goal() const;
     float get_goal_distance() const;
+    void start_food_mode();
+    void add_food(Vector2 food);
+    void draw_food();
 };
 
 #endif

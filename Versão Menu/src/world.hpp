@@ -27,6 +27,7 @@ private:
     int World_height;               //height
     std::vector<Entity*> Entities;  //vector with pointers to all entities
     std::vector<Bot> population;    //vector with all bots
+    Ship* food_ship = nullptr;      //the ship that eats the clicked food (interactive environment)
 
     std::vector<Texture> Textures;  //texture dictionary
     SpatialHashGrid grid;           //collision hash map
@@ -51,6 +52,10 @@ public:
     Entity* Spawn_entity(int type);
     void create_goals();
     void assign_goal(Ship* ship);
+    void start_food_mode();
+    void add_food(Vector2 food);
+    void set_asteroid_count(int count);
+    void set_player(bool on);
     void update();
     bool check_valid_spawn(Entity* candidate);
     void Draw();

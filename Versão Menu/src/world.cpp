@@ -6,6 +6,7 @@
 #include <memory>
 #include <string>
 #include <functional>
+#include <algorithm>
 
 using namespace std;
     
@@ -134,6 +135,46 @@ void World::assign_goal(Ship* ship){
     else if(has_goal) ship->set_goals(goal_points);
 }
 
+//interactive environment: drop the mode's goals, the ship only chases clicked food
+void World::start_food_mode(){
+    goal_points.clear();
+    has_goal = false;
+    food_ship = dynamic_cast<Ship*>(Entities.back());   //the constructors spawn the bots last
+    food_ship->start_food_mode();
+}
+
+void World::add_food(Vector2 food){
+    food_ship->add_food(food);
+}
+
+void World::set_asteroid_count(int count){
+    auto is_asteroid = [](Entity* e){ return e->type == 1; };
+    int asteroids = count_if(Entities.begin(), Entities.end(), is_asteroid);
+    if(asteroids == count) return;
+
+    for(; asteroids < count; asteroids++) Spawn_entity(1);
+    for(; asteroids > count; asteroids--){
+        auto it = find_if(Entities.begin(), Entities.end(), is_asteroid);
+        delete *it;
+        Entities.erase(it);
+    }
+    grid.build(Entities);   //computeFOV reads last tick's grid, which would still hold deleted asteroids
+}
+
+void World::set_player(bool on){
+    auto it = find_if(Entities.begin(), Entities.end(), [](Entity* e){ return e->type == 0; });
+    if(on == (it != Entities.end())) return;
+
+    if(on){
+        //food mode keeps it from dying: its death would count as the bot's and end the world
+        dynamic_cast<Ship*>(Spawn_entity(0))->start_food_mode();
+    }else{
+        delete *it;
+        Entities.erase(it);
+    }
+    grid.build(Entities);   //same reason as set_asteroid_count
+}
+
 //spawn a new entity. types: 0- player ship, 1- asteroid, 2- bot ship
 Entity* World::Spawn_entity(int type){
     Entity* new_entity;
@@ -203,6 +244,7 @@ bool World::check_valid_spawn(Entity* candidate){
 //draw all entities
 void World::Draw(){
     for(auto e: Entities) e->Draw();
+    if(food_ship) food_ship->draw_food();
 }
 
 //drawextra all entities
