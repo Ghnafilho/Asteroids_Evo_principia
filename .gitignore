@@ -1,19 +1,24 @@
-# Arquivos gerados pela compilação (make)
+# Arquivos de compilação
 build/
 *.o
 *.d
 
-# Executáveis gerados em src/
+# Executáveis
 main
 main.exe
+*.out
 
-# Logs gerados a cada execução da simulação
+# Logs
 log*.txt
 
-# Editor e sistema operacional
+# Arquivos temporários
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
+
+# Sistema operacional
 .DS_Store
 Thumbs.db
 desktop.ini
